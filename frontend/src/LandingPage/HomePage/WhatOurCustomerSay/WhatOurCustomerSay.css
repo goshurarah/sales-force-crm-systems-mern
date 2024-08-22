@@ -1,0 +1,896 @@
+.main_div_WhatOurCustomerSay {
+  width: 100%;
+  background: #fdf6f2;
+  padding-bottom: 3%;
+  height: auto;
+}
+.main_div_automation_running {
+  background: #ffffff;
+  width: 100%;
+  height: 272px;
+  border-radius: 50px;
+  margin-top: 3%;
+}
+.number_running_automation {
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: left;
+  color: #042270;
+  margin-left: 100px;
+  margin-top: 80px;
+}
+.heading_running_automation {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  color: #042270;
+  margin-left: 100px;
+}
+.what_our_customer_say_heading {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 55.2px;
+  text-align: center;
+  color: #042270;
+  margin-top: 6%;
+}
+.blue_circle_customersay {
+  width: 77px;
+  height: 77px;
+  border-radius: 50px;
+  background: #042270;
+  border-color: none;
+  border-style: none;
+  margin-top: 450px;
+  margin-left: 50px;
+}
+.righticon_clientsay {
+  margin-top: -40px;
+}
+.sky_round_circle {
+  width: 89px;
+  height: 89px;
+  background: #87cef6;
+  border-radius: 50px;
+  border-color: none;
+  border-style: none;
+  margin-top: 370px;
+}
+.right_icon_style {
+  margin-top: 270px;
+}
+.main_div_client_Say {
+  width: 50%;
+  margin-left: 25%;
+}
+.review_logo {
+  margin-top: 25px;
+}
+.para_review_customersay {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: center;
+  color: #000000;
+  margin-top: 15px;
+}
+.review_heading_custumersay {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 6.4px;
+  text-align: center;
+  color: #042270;
+  margin-top: 35px;
+}
+.review_heading_below_custumersay {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: center;
+  color: #6d6d6d;
+}
+.review_client_img {
+  margin-top: 15px;
+}
+
+.slick-prev {
+  font-size: 0;
+  line-height: 0;
+  top: 0%;
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  -webkit-transform: translate(0, 425%) !important;
+  -ms-transform: translate(0, 425%) !important;
+  transform: translate(0, 425%) !important;
+  cursor: pointer;
+
+  border: none;
+  outline: 0;
+}
+
+.slick-next {
+  font-size: 0;
+  line-height: 0;
+  top: 0%;
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  -webkit-transform: translate(0, 425%) !important;
+  -ms-transform: translate(0, 425%) !important;
+  transform: translate(0, 425%) !important;
+  cursor: pointer;
+
+  border: none;
+  outline: 0;
+}
+.custom-prev-arrow,
+.custom-next-arrow {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-size: cover;
+  cursor: pointer;
+}
+
+
+@media only screen and (max-width: 1720px) {
+    .main_div_WhatOurCustomerSay {
+      width: 100%;
+      background: #fdf6f2;
+      padding-bottom: 3%;
+      height: auto;
+    }
+    .main_div_automation_running {
+      background: #ffffff;
+      width: 100%;
+      height: 272px;
+      border-radius: 50px;
+      margin-top: 3%;
+    }
+    .number_running_automation {
+      font-family: "Poppins", sans-serif;
+      font-size: 38px;
+      font-weight: 600;
+      line-height: 42px;
+      text-align: left;
+      color: #042270;
+      margin-left: 30px;
+      margin-top: 90px;
+    }
+    .heading_running_automation {
+      font-family: "Poppins", sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+      text-align: left;
+      color: #042270;
+      margin-left: 30px;
+    }
+    .what_our_customer_say_heading {
+      font-family: "Poppins", sans-serif;
+      font-size: 36px;
+      font-weight: 800;
+      line-height: 50.2px;
+      text-align: center;
+      color: #042270;
+      margin-top: 6%;
+    }
+    .blue_circle_customersay {
+      width: 67px;
+      height: 67px;
+      border-radius: 50px;
+      background: #042270;
+      border-color: none;
+      border-style: none;
+      margin-top: 450px;
+      margin-left: 50px;
+    }
+    .righticon_clientsay {
+      margin-top: -40px;
+    }
+    .sky_round_circle {
+      width: 79px;
+      height: 79px;
+      background: #87cef6;
+      border-radius: 50px;
+      border-color: none;
+      border-style: none;
+      margin-top: 370px;
+    }
+    .right_icon_style {
+      margin-top: 270px;
+    }
+    .main_div_client_Say {
+      width: 50%;
+      margin-left: 25%;
+    }
+    .review_logo {
+      margin-top: 25px;
+    }
+    .para_review_customersay {
+      font-family: "Poppins", sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 28.8px;
+      text-align: center;
+      color: #000000;
+      margin-top: 15px;
+    }
+    .review_heading_custumersay {
+      font-family: "Red Hat Display", sans-serif;
+      font-size: 18px;
+      font-weight: 800;
+      line-height: 6.4px;
+      text-align: center;
+      color: #042270;
+      margin-top: 35px;
+    }
+    .review_heading_below_custumersay {
+      font-family: "Red Hat Display", sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 18px;
+      text-align: center;
+      color: #6d6d6d;
+    }
+    .review_client_img {
+      margin-top: 15px;
+    }
+  
+    .slick-prev {
+      font-size: 0;
+      line-height: 0;
+      top: 0%;
+      width: 60px;
+      height: 60px;
+      border-radius: 50px;
+      -webkit-transform: translate(0, 425%) !important;
+      -ms-transform: translate(0, 425%) !important;
+      transform: translate(0, 425%) !important;
+      cursor: pointer;
+  
+      border: none;
+      outline: 0;
+    }
+  
+    .slick-next {
+      font-size: 0;
+      line-height: 0;
+      top: 0%;
+  
+      width: 60px;
+      height: 60px;
+      border-radius: 50px;
+      -webkit-transform: translate(0, 425%) !important;
+      -ms-transform: translate(0, 425%) !important;
+      transform: translate(0, 425%) !important;
+      cursor: pointer;
+  
+      border: none;
+      outline: 0;
+    }
+    .custom-prev-arrow,
+    .custom-next-arrow {
+      width: 50px;
+      height: 50px;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background-size: cover;
+      cursor: pointer;
+    }
+  }
+@media only screen and (max-width: 1400px) {
+  .main_div_WhatOurCustomerSay {
+    width: 100%;
+    background: #fdf6f2;
+    padding-bottom: 3%;
+    height: auto;
+  }
+  .main_div_automation_running {
+    background: #ffffff;
+    width: 100%;
+    height: 272px;
+    border-radius: 50px;
+    margin-top: 3%;
+  }
+  .number_running_automation {
+    font-family: "Poppins", sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 42px;
+    text-align: left;
+    color: #042270;
+    margin-left: 30px;
+    margin-top: 90px;
+  }
+  .heading_running_automation {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #042270;
+    margin-left: 30px;
+  }
+  .what_our_customer_say_heading {
+    font-family: "Poppins", sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 50.2px;
+    text-align: center;
+    color: #042270;
+    margin-top: 6%;
+  }
+  .blue_circle_customersay {
+    width: 67px;
+    height: 67px;
+    border-radius: 50px;
+    background: #042270;
+    border-color: none;
+    border-style: none;
+    margin-top: 450px;
+    margin-left: 50px;
+  }
+  .righticon_clientsay {
+    margin-top: -40px;
+  }
+  .sky_round_circle {
+    width: 79px;
+    height: 79px;
+    background: #87cef6;
+    border-radius: 50px;
+    border-color: none;
+    border-style: none;
+    margin-top: 370px;
+  }
+  .right_icon_style {
+    margin-top: 270px;
+  }
+  .main_div_client_Say {
+    width: 50%;
+    margin-left: 25%;
+  }
+  .review_logo {
+    margin-top: 25px;
+  }
+  .para_review_customersay {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: center;
+    color: #000000;
+    margin-top: 15px;
+  }
+  .review_heading_custumersay {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 6.4px;
+    text-align: center;
+    color: #042270;
+    margin-top: 35px;
+  }
+  .review_heading_below_custumersay {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    color: #6d6d6d;
+  }
+  .review_client_img {
+    margin-top: 15px;
+  }
+
+  .slick-prev {
+    font-size: 0;
+    line-height: 0;
+    top: 0%;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    -webkit-transform: translate(0, 425%) !important;
+    -ms-transform: translate(0, 425%) !important;
+    transform: translate(0, 425%) !important;
+    cursor: pointer;
+
+    border: none;
+    outline: 0;
+  }
+
+  .slick-next {
+    font-size: 0;
+    line-height: 0;
+    top: 0%;
+
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    -webkit-transform: translate(0, 425%) !important;
+    -ms-transform: translate(0, 425%) !important;
+    transform: translate(0, 425%) !important;
+    cursor: pointer;
+
+    border: none;
+    outline: 0;
+  }
+  .custom-prev-arrow,
+  .custom-next-arrow {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-size: cover;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .main_div_WhatOurCustomerSay {
+    width: 100%;
+    background: #fdf6f2;
+    padding-bottom: 3%;
+    height: auto;
+  }
+  .main_div_automation_running {
+    background: #ffffff;
+    width: 100%;
+    height: 272px;
+    border-radius: 50px;
+    margin-top: 3%;
+  }
+  .number_running_automation {
+    font-family: "Poppins", sans-serif;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 38px;
+    text-align: left;
+    color: #042270;
+    margin-left: 15px;
+    margin-top: 90px;
+  }
+  .heading_running_automation {
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: #042270;
+    margin-left: 15px;
+  }
+  .what_our_customer_say_heading {
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 50.2px;
+    text-align: center;
+    color: #042270;
+    margin-top: 6%;
+  }
+  .blue_circle_customersay {
+    width: 57px;
+    height: 57px;
+    border-radius: 50px;
+    background: #042270;
+    border-color: none;
+    border-style: none;
+    margin-top: 450px;
+    margin-left: 50px;
+  }
+  .righticon_clientsay {
+    margin-top: -40px;
+  }
+  .sky_round_circle {
+    width: 69px;
+    height: 69px;
+    background: #87cef6;
+    border-radius: 50px;
+    border-color: none;
+    border-style: none;
+    margin-top: 370px;
+  }
+  .right_icon_style {
+    margin-top: 270px;
+  }
+  .main_div_client_Say {
+    width: 50%;
+    margin-left: 25%;
+  }
+  .review_logo {
+    margin-top: 25px;
+    width: 49px;
+    height: 49px;
+  }
+  .para_review_customersay {
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: center;
+    color: #000000;
+    margin-top: 15px;
+  }
+  .review_heading_custumersay {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 6.4px;
+    text-align: center;
+    color: #042270;
+    margin-top: 35px;
+  }
+  .review_heading_below_custumersay {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    color: #6d6d6d;
+  }
+  .review_client_img {
+    margin-top: 15px;
+  }
+
+  .slick-prev {
+    font-size: 0;
+    line-height: 0;
+    top: 12%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    -webkit-transform: translate(0, 425%) !important;
+    -ms-transform: translate(0, 425%) !important;
+    transform: translate(0, 425%) !important;
+    cursor: pointer;
+
+    border: none;
+    outline: 0;
+  }
+
+  .slick-next {
+    font-size: 0;
+    line-height: 0;
+    top: 12%;
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    -webkit-transform: translate(0, 425%) !important;
+    -ms-transform: translate(0, 425%) !important;
+    transform: translate(0, 425%) !important;
+    cursor: pointer;
+
+    border: none;
+    outline: 0;
+
+  }
+  .custom-prev-arrow,
+  .custom-next-arrow {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-size: cover;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .main_div_WhatOurCustomerSay {
+    width: 100%;
+    background: #fdf6f2;
+    padding-bottom: 10%;
+    height: auto;
+  }
+  .main_div_automation_running {
+    background: #ffffff;
+    width: 50%;
+    margin-left: 25%;
+    height: auto;
+    border-radius: 50px;
+    margin-top: 3%;
+  }
+  .number_running_automation {
+    font-family: "Poppins", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: center;
+    color: #042270;
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .heading_running_automation {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    color: #042270;
+    margin-left: 0px;
+    padding-bottom: 5px;
+  }
+  .what_our_customer_say_heading {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 50.2px;
+    text-align: center;
+    color: #042270;
+    margin-top: 6%;
+  }
+  .blue_circle_customersay {
+    width: 32px;
+    height: 32px;
+    border-radius: 50px;
+    background: #042270;
+    border-color: none;
+    border-style: none;
+    margin-top: 450px;
+    margin-left: 50px;
+  }
+  .righticon_clientsay {
+    margin-top: -40px;
+  }
+  .sky_round_circle {
+    width: 19px;
+    height: 19px;
+    background: #87cef6;
+    border-radius: 50px;
+    border-color: none;
+    border-style: none;
+    margin-top: 370px;
+  }
+  .right_icon_style {
+    margin-top: 270px;
+  }
+  .main_div_client_Say {
+    width: 50%;
+    margin-left: 25%;
+  }
+  .review_logo {
+    margin-top: 25px;
+    width: 39px;
+    height: 39px;
+  }
+  .para_review_customersay {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: center;
+    color: #000000;
+    margin-top: 15px;
+  }
+  .review_heading_custumersay {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 6.4px;
+    text-align: center;
+    color: #042270;
+    margin-top: 35px;
+  }
+  .review_heading_below_custumersay {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    color: #6d6d6d;
+  }
+  .review_client_img {
+    margin-top: 15px;
+    width: 60px;
+    height: 60px;
+  }
+
+  .slick-prev {
+    font-size: 0;
+    line-height: 0;
+    top: 42%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    -webkit-transform: translate(0, 425%) !important;
+    -ms-transform: translate(0, 425%) !important;
+    transform: translate(0, 425%) !important;
+    cursor: pointer;
+
+    border: none;
+    outline: 0;
+  }
+
+  .slick-next {
+    font-size: 0;
+    line-height: 0;
+    top: 42%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    -webkit-transform: translate(0, 425%) !important;
+    -ms-transform: translate(0, 425%) !important;
+    transform: translate(0, 425%) !important;
+    cursor: pointer;
+    border: none;
+    outline: 0;
+  }
+  .custom-prev-arrow,
+  .custom-next-arrow {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-size: cover;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .main_div_WhatOurCustomerSay {
+    width: 100%;
+    background: #fdf6f2;
+    padding-bottom: 10%;
+    height: auto;
+  }
+  .main_div_automation_running {
+    background: #ffffff;
+    width: 80%;
+    margin-left: 10%;
+    height: auto;
+    border-radius: 50px;
+    margin-top: 3%;
+  }
+  .number_running_automation {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: center;
+    color: #042270;
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .heading_running_automation {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    color: #042270;
+    margin-left: 0px;
+    padding-bottom: 5px;
+  }
+  .what_our_customer_say_heading {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 50.2px;
+    text-align: center;
+    color: #042270;
+    margin-top: 16%;
+  }
+  .blue_circle_customersay {
+    width: 32px;
+    height: 32px;
+    border-radius: 50px;
+    background: #042270;
+    border-color: none;
+    border-style: none;
+    margin-top: 450px;
+    margin-left: 50px;
+  }
+  .righticon_clientsay {
+    margin-top: -40px;
+  }
+  .sky_round_circle {
+    width: 9px;
+    height: 9px;
+    background: #87cef6;
+    border-radius: 50px;
+    border-color: none;
+    border-style: none;
+    margin-top: 370px;
+  }
+  .right_icon_style {
+    margin-top: 270px;
+    display: none;
+  }
+  .main_div_client_Say {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .review_logo {
+    margin-top: 25px;
+    width: 29px;
+    height: 29px;
+  }
+  .para_review_customersay {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: center;
+    color: #000000;
+    margin-top: 15px;
+  }
+  .review_heading_custumersay {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 6.4px;
+    text-align: center;
+    color: #042270;
+    margin-top: 35px;
+  }
+  .review_heading_below_custumersay {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    color: #6d6d6d;
+  }
+  .review_client_img {
+    margin-top: 15px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .slick-prev {
+    font-size: 0;
+    line-height: 0;
+    top: 73%;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    -webkit-transform: translate(0, 425%) !important;
+    -ms-transform: translate(0, 425%) !important;
+    transform: translate(0, 425%) !important;
+    cursor: pointer;
+    border: none;
+    outline: 0;
+  }
+
+  .slick-next {
+    font-size: 0;
+    line-height: 0;
+    top: 73%;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    -webkit-transform: translate(0, 425%) !important;
+    -ms-transform: translate(0, 425%) !important;
+    transform: translate(0, 425%) !important;
+    cursor: pointer;
+
+    border: none;
+    outline: 0;
+  }
+  .custom-prev-arrow,
+  .custom-next-arrow {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-size: cover;
+    cursor: pointer;
+  }
+}

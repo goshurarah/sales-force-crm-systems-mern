@@ -1,0 +1,228 @@
+.main_div_integration_detail {
+  width: 100%;
+  height: auto;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+.img_pic_int {
+  margin-bottom: 3%;
+}
+.description_para_int {
+  color: #111111;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+}
+
+.main_div_integrationdetail {
+  width: 100%;
+  height: auto;
+}
+.logo_integrationdetail {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.para_integrationcontent {
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.heading_quote_integrationdetail {
+  margin-top: 8%;
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 43px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #232323;
+}
+.heading_quote_integrationdetail_orange {
+  margin-top: 8%;
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 43px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #41aef2;
+  margin-left: 10px;
+}
+
+.blue_arrow_int {
+  margin-top: 8%;
+  margin-right: 23%;
+  position: relative;
+  animation: moveRightLeft 1.2s infinite alternate; /* Adjust duration and timing as needed */
+}
+
+@keyframes moveRightLeft {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 50px; /* Adjust the distance you want the image to move */
+  }
+}
+.img_checkout_icon {
+  padding-right: 10%;
+}
+.checkout_button_int {
+  width: 214.59px;
+  height: 60px;
+  top: 1139px;
+  left: 1315px;
+  border-radius: 30px;
+  background: #41aef2;
+  border: 1px solid #41aef2;
+  border: 1px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 8%;
+  padding-right: 5%;
+}
+
+.checkout_div {
+  height: 165px;
+  padding-bottom: 0%;
+}
+
+@media (max-width: 1200px) {
+  .main_div_integration_detail {
+    width: 100%;
+    height: auto;
+    padding-top: 4%;
+    padding-bottom: 4%;
+  }
+  .img_pic_int {
+    margin-bottom: 3%;
+    width: 320px;
+  }
+  .description_para_int {
+    color: #111111;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+  }
+}
+@media (max-width: 1000px) {
+  .main_div_integration_detail {
+    width: 100%;
+    height: auto;
+    padding-top: 4%;
+    padding-bottom: 4%;
+  }
+  .img_pic_int {
+    margin-bottom: 3%;
+    width: 300px;
+  }
+  .description_para_int {
+    color: #111111;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+  }
+
+  .img_checkout_icon {
+    width: 40px;
+    height: 30px;
+  }
+
+  .logo_integrationdetail {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 500px;
+  }
+  .checkout_div {
+    height: auto;
+    padding-bottom: 7%;
+  }
+  .heading_quote_integrationdetail {
+    margin-top: 8%;
+    font-family: "Poppins", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #232323;
+  }
+  .heading_quote_integrationdetail_orange {
+    margin-top: 8%;
+    font-family: "Poppins", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #41aef2;
+    margin-left: 10px;
+  }
+}
+@media (max-width: 500px) {
+  .main_div_integration_detail {
+    width: 100%;
+    height: auto;
+    padding-top: 4%;
+    padding-bottom: 4%;
+  }
+  .img_pic_int {
+    margin-bottom: 3%;
+    width: 200px;
+  }
+  .description_para_int {
+    color: #111111;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+  }
+  .logo_integrationdetail {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 300px;
+  }
+}
+@media (max-width: 375px) {
+  .heading_quote_integrationdetail {
+    margin-top: 8%;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #232323;
+  }
+  .logo_integrationdetail {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 250px;
+  }
+  .heading_quote_integrationdetail_orange {
+    margin-top: 8%;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #41aef2;
+    margin-left: 10px;
+  }
+}

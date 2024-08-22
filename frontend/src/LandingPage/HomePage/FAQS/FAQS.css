@@ -1,0 +1,162 @@
+.main_div_faqs {
+  width: 100%;
+  height: auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.heading_faqs {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: #042270;
+}
+.accordion-button {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  color: #6d6d6d !important;
+}
+.accordion-body {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  color: #6d6d6d !important;
+}
+.accordion-button::after {
+  background-image: url(./../../../Assets/btn_accordian.png) !important;
+}
+.faqleft_style{
+    margin-top: -190px;
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--bs-accordion-active-color);
+    background-color: #87CEF6;
+    box-shadow: inset 0 calc(-1* var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+}
+@media only screen and (max-width: 991px) {
+  .main_div_faqs {
+    width: 100%;
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .heading_faqs {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #042270;
+  }
+  .faqleft_style{
+    margin-top: 0;
+}
+  .accordion-button {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    color: #6d6d6d !important;
+  }
+  .accordion-body {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    color: #6d6d6d !important;
+  }
+  .accordion-button::after {
+    background-image: url(./../../../Assets/btn_accordian.png) !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .main_div_faqs {
+    width: 100%;
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .faqleft_style{
+    display: none;
+}
+  .heading_faqs {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #042270;
+  }
+  .accordion-button {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    color: #6d6d6d !important;
+  }
+  .accordion-body {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    color: #6d6d6d !important;
+  }
+  .accordion-button::after {
+    background-image: url(./../../../Assets/btn_accordian.png) !important;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .main_div_faqs {
+    width: 100%;
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .heading_faqs {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #042270;
+  }
+  .faqleft_style{
+    display: none;
+}
+  .accordion-button {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    color: #6d6d6d !important;
+  }
+  .accordion-body {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    color: #6d6d6d !important;
+  }
+  .accordion-button::after {
+    background-image: url(./../../../Assets/btn_accordian.png) !important;
+  }
+}

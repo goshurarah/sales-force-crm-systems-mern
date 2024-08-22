@@ -1,0 +1,1737 @@
+.heading_div_blog {
+    height: 300px;
+    width: 100%;
+    background-color: #f3f3f3;
+    text-align: center;
+    margin-top: 1%;
+  }
+  .blog_heading {
+    color: #1d4480;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-top: 8%;
+  }
+  .blogs_content_main_div {
+    height: auto;
+    margin-top: 5%;
+  }
+  .blog_content_left_main_div {
+    height: auto;
+    width: 100%;
+    background: #f3f3f5;
+    padding: 7%;
+    border-radius: 6px;
+    margin-bottom: 5%;
+    
+  
+  }
+  .heading_blog_left {
+    color: #1d4480;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 30%;
+  }
+  .below_heading_blog_left {
+    color: #828594;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 1%;
+  }
+  .below_below_heading_blog_left {
+    color: #5c5e69;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 90%;
+    margin-left: 5%;
+  }
+  .main_div_icon_blog_left {
+    width: 30px;
+    height: 28px;
+    margin: 0 2px;
+    border: none;
+    color:#1d4480;
+    text-align: center !important;
+    cursor: pointer;
+  }
+  .main_div_icon_blog_left:hover {
+    color: #f90 !important;
+    text-align: center !important;
+  }
+  
+  .input_div_search_div {
+    width: 88%;
+    height: 50px;
+    border: 1px solid #fbfbfb;
+    background: #ffffff;
+    width: 100%;
+    height: 60px;
+    top: 30px;
+    left: 30px;
+    padding: 19px, 41px, 19px, 26px;
+    border-radius: 30px;
+    border: 1px;
+  }
+  .input_style_serach {
+    border-color: transparent;
+    padding-top: 8px;
+    width: 80%;
+    padding-right: 5px;
+    padding-left: 15px;
+    outline: none;
+    background: transparent;
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #5c5e69;
+  }
+  .input_style_serach:focus::placeholder {
+    color: transparent;
+  }
+  .related_post_text {
+    color: #1d4480;
+    margin-left: 6%;
+    margin-top: 20px;
+    font-family: "Red Hat Display", Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .hr_tag_blog {
+    border: 1px solid rgba(0, 0, 0, 2);
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+  .related_post_main_div {
+    width: 90%;
+    margin-left: 5%;
+    height: 300px;
+    margin-top: 10%;
+    margin-bottom: 15%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  .related_post_main_div::-webkit-scrollbar {
+    width: 0.4em;
+  }
+  
+  .related_post_main_div::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px #d9d9d9;
+    background: #d9d9d9;
+    border-radius: 1px;
+  }
+  
+  .related_post_main_div::-webkit-scrollbar-thumb {
+    background: #9a9dac;
+    /* outline: 1px solid #1d4480; */
+    border-radius: 1px;
+  }
+  .related_post_div {
+    width: 95%;
+    margin-bottom: 5%;
+    text-decoration: none;
+  }
+  a {
+    color: none !important;
+    text-decoration: none !important;
+  }
+  a:hover {
+    color: none;
+    text-decoration: none;
+  }
+  .image_related_post {
+    width: 70px;
+    height: 70px;
+    border-radius: 6px;
+  }
+  .desp_related_post {
+    color: #404653;
+    display: block;
+    font-family: "Red Hat Display", Arial, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+  }
+  .heading_related_post {
+    color:#1d4480;
+    font-family: "Red Hat Display", Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .heading_related_post:hover {
+    color:#87CEF6;
+  }
+  .category_div_below {
+    margin-left: 5%;
+  }
+  .category_name {
+    color: #888686;
+    font-family: "Red Hat Display", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .category_name:hover {
+    color: #1d4480;
+  }
+  .main_div_tag {
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    margin-bottom: 5%;
+    padding-left: 4%;
+  }
+  .main_div_tag_name {
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    margin-bottom: 5%;
+    padding-left: 0%;
+  }
+  .button_tags {
+    width: auto;
+    height: auto;
+    margin: 0px 6px;
+    border: none;
+    color: #000000;
+    background-color: white;
+    text-align: center !important;
+    padding: 1px 10px;
+    cursor: pointer;
+    font-family: "Red Hat Display", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+  }
+  .button_tags:hover {
+    background-color: #1d4480;
+    color: #ffffff;
+    text-align: center !important;
+  }
+  .button_tags_name {
+    width: auto;
+    height: auto;
+    margin: 0px 6px;
+    border: none;
+    color: #000000;
+    background: #f3f3f5;
+    text-align: center !important;
+    padding: 1px 10px;
+    cursor: pointer;
+    font-family: "Red Hat Display", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+  }
+  
+  .button_tags_name:hover {
+    background-color: #1d4480;
+    color: #ffffff;
+    text-align: center !important;
+  }
+  .icon_colour_style_content {
+    color: #1d4480;
+    cursor: pointer;
+    margin-top: 3px;
+    margin-right: 10px;
+  }
+  .content_text {
+    margin-right: 50px;
+  }
+  .heading_content_right {
+    color: #87CEF6;
+    font-family: "Red Hat Display", Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .heading_content_right:hover {
+    color: #1d4480;
+  }
+  .para_centent_right {
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #262420;
+  }
+  .continue_reading_text {
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #1d4480;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  .blog_image_style {
+    width: 100%;
+    height: 500px;
+    border-radius: 8px, 8px, 0px, 0px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+  .main_div_footer_contents {
+    display: flex;
+    justify-content: center;
+  }
+  .main_div_post_conatiner {
+    width: 95%;
+    margin-left: 5%;
+  }
+  
+  .pagination_blogs {
+    /* margin-left: 45% !important; */
+    margin-bottom: 25% !important;
+  }
+  
+  @media only screen and (max-width: 1750px) {
+    .pagination_blogs {
+      /* margin-left: 45% !important; */
+      margin-bottom: 25% !important;
+    }
+  }
+  @media only screen and (max-width: 1207px) {
+    .image_related_post {
+      width: 60px;
+      height: 65px;
+    }
+  
+    .desp_related_post {
+      color: #888686;
+      display: block;
+      font-family: "Red Hat Display", Arial, sans-serif;
+      font-size: 11px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  
+    .heading_related_post {
+      color:#1d4480;
+      font-family: "Red Hat Display", Arial, sans-serif;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      cursor: pointer;
+    }
+  
+    .button_tags {
+      width: auto;
+      height: auto;
+      margin: 0 6px;
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      color: #000000;
+      text-align: center !important;
+      padding: 5px;
+      cursor: pointer;
+      font-size: 11px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+  }
+  @media only screen and (max-width: 992px) {
+    .main_div_post_conatiner {
+      width: 100%;
+      margin-left: 0%;
+    }
+    .pagination_blogs {
+      /* margin-left: 5%; */
+      margin-bottom: 5%;
+    }
+    .heading_div_blog {
+      margin-top: 5%;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .pagination_blogs {
+      /* margin-left: 3% !important; */
+      margin-bottom: 35% !important;
+    }
+  }
+  
+  @media only screen and (max-width: 580px) {
+    .pagination_blogs {
+      /* margin-left: 3% !important; */
+      margin-bottom: 65% !important;
+    }
+  }
+  @media only screen and (max-width: 550px) {
+    .blog_heading {
+      color: #1d4480;
+      text-align: center;
+      font-family: "Inter";
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+      padding-top: 20%;
+    }
+  
+    .blog_image_style {
+      width: 100%;
+      height: 300px;
+      border-radius: 8px, 8px, 0px, 0px;
+      margin-top: 0%;
+      margin-bottom: 0%;
+    }
+    .main_div_footer_contents {
+      display: flex;
+      flex-direction: column; /* Set the flex direction to row */
+      justify-content: center;
+    }
+    .heading_content_right {
+      font-family: "Inter";
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      color: #262420;
+      cursor: pointer;
+    }
+    .para_centent_right {
+      font-family: "Inter";
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      color: #262420;
+    }
+  }
+  
+  /* blog navbar style */
+  
+  .main_div_blogs_navbar {
+    width: 100%;
+    height: 350px;
+    background-color: grey;
+  
+    /* background-image: url("./../Assets/bg_footer.png"); */
+  
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 0% !important;
+    overflow: hidden;
+  }
+  
+  .heading_blogs {
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 120% */
+    padding-top: 14%;
+    animation: slideInFromRight 1s ease-out; /* Animation */
+  }
+  
+  /* Keyframes for the animation */
+  @keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%); /* Start off the screen */
+    }
+    100% {
+      transform: translateX(0); /* Slide in to original position */
+    }
+  }
+  .para_blogs_white {
+    color: #fff;
+  
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+    text-transform: uppercase;
+  }
+  .orange_line_blogs {
+    width: 16px;
+    height: 2px;
+    flex-shrink: 0;
+    background: #fff;
+    margin-top: 11px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .para_blogs_orange {
+    color: #f90;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+    text-transform: capitalize;
+  }
+  @media only screen and (max-width: 1400px) {
+    .heading_blogs {
+      color: #fff;
+      font-family: "Poppins", sans-serif;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 28px;
+      padding-top: 16%;
+    }
+  }
+  
+  @media only screen and (max-width: 1200px) {
+    .heading_blogs {
+      color: #fff;
+      font-family: "Poppins", sans-serif;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 28px;
+      padding-top: 18%;
+    }
+  }
+  @media only screen and (max-width: 991px) {
+    .main_div_blogs_navbar {
+      width: 100%;
+      height: auto;
+      background-color: grey;
+      padding-bottom: 10% !important;
+    }
+  
+    .heading_blogs {
+      color: #fff;
+      font-family: "Poppins", sans-serif;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 28px; /* 120% */
+      padding-top: 20%;
+    }
+    .para_blogs_white {
+      color: #fff;
+  
+      font-family: "Poppins", sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 26px; /* 162.5% */
+      text-transform: uppercase;
+    }
+    .orange_line_cn {
+      width: 14px;
+      height: 2px;
+      flex-shrink: 0;
+      background: #fff;
+      margin-top: 11px;
+      margin-right: 5px;
+      margin-left: 5px;
+    }
+    .para_blogs_orange {
+      color: #f90;
+      font-family: "Poppins", sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 26px; /* 162.5% */
+      text-transform: capitalize;
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .heading_blogs {
+      color: #fff;
+      font-family: "Poppins", sans-serif;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 28px; /* 120% */
+      padding-top: 22%;
+    }
+  }
+  
+  @media only screen and (max-width: 567px) {
+    .heading_blogs {
+      color: #fff;
+      font-family: "Poppins", sans-serif;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 28px; /* 120% */
+      padding-top: 30%;
+    }
+  }
+  
+  @media only screen and (max-width: 400px) {
+    .heading_blogs {
+      color: #fff;
+      font-family: "Poppins", sans-serif;
+      font-size: 26px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 28px; /* 120% */
+      padding-top: 36%;
+    }
+  }
+  
+  /* new blog design css */
+  .loader_div {
+    margin-top: 10%;
+    margin-bottom: 20%;
+  }
+  .main_div_blog_new {
+    margin-top: 7%;
+    padding-bottom: 5%;
+    width: 100%;
+    height: auto;
+  }
+  .blog_picture_div {
+    background-color: #d9d9d9;
+    width: 100%;
+    height: 294px;
+    margin-top: 15px;
+  }
+  .blog_image_new {
+    width: 100%;
+    height: 100%;
+  }
+  .para_heading_in_blog_new {
+    font-family: "Red Hat Display", Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 2%;
+    color: #042270;
+  }
+  .date_in_blog_new {
+    font-family: "Red Hat Display", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #263238;
+  }
+  .para_in_blog_new {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #263238;
+  }
+  .read_more_para {
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1da5df;
+    text-decoration: underline;
+margin-bottom: 20px !important;
+  }
+  @media only screen and (max-width: 2000px) {
+    .margin_bottom_class_add{
+  margin-bottom: 50%;
+    }
+  }
+  @media only screen and (max-width: 1000px) {
+    .margin_bottom_class_add{
+  margin-bottom: 35%;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .margin_bottom_class_add{
+  margin-bottom: 55%;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .blogviewBook_main_div {
+    background: #ffffff;
+    width: 100% !important;
+    height: auto;
+    padding-bottom: 5%;
+  }
+  .main_div_blogview_image_style {
+    height: 400px;
+  }
+  .blogviewiamge {
+    transform: translateY(-35%);
+  }
+  .main_div_bg_blogview_left {
+    background-image: url(./../../../Assets/faq_left.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100px;
+    margin-left: 0%;
+    margin-top: 80px;
+  }
+  
+  .blogview_heading_sky {
+    font-family: "Poppins", sans-serif;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 96px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #187dff;
+    margin-top: 20px;
+  }
+  .blogview_heading_blue {
+    font-family: "Poppins", sans-serif;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 96px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #042270;
+    margin-left: 7px;
+    margin-top: 20px;
+    animation: scaleHeading 1s ease-out; /* Animation */
+}
+
+@keyframes scaleHeading {
+  0% {
+    transform: scale(1.3);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+  .withothers_image {
+    margin-top: 250px;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .sky_heading_book {
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #187dff;
+  }
+  .blue_heading_book {
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #042270;
+  }
+  .blue_heading_book1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #042270;
+  }
+  .para_detail_book_whyus {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    text-align: justify;
+    color: #000000;
+    margin-left: 20px;
+    width: 85%;
+  }
+  .btn_book_now_whyus {
+    width: 231px;
+    height: 52px;
+    border-radius: 30px;
+    background: #042270;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+    color: #ffffff;
+    margin-left: 20px;
+    outline: none;
+    border-color: none;
+    border-style: none;
+    margin-top: 60px;
+  }
+  .round_sky_div_booknow {
+    width: 89px;
+    height: 89px;
+    background: #87cef6;
+    border-radius: 50px;
+    margin-right: 140px;
+    margin-top: 60px;
+  }
+  @media only screen and (max-width: 1700px) {
+    .blogviewBook_main_div {
+
+      width: 100% !important;
+      height: auto;
+      padding-bottom: 5%;
+    }
+    .main_div_blogview_image_style {
+      height: 380px;
+    }
+    .blogviewiamge {
+      transform: translateY(-35%);
+    }
+    .main_div_bg_blogview_left {
+        background-image: url(./../../../Assets/faq_left.svg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100px;
+        margin-left: 0%;
+        margin-top: 80px;
+      }
+  
+    .blogview_heading_sky {
+      font-family: "Poppins", sans-serif;
+      font-size: 64px;
+      font-weight: 800;
+      line-height: 96px;
+      letter-spacing: 0.05em;
+      text-align: left;
+      color: #187dff;
+      margin-top: 20px;
+    }
+    .blogview_heading_blue {
+      font-family: "Poppins", sans-serif;
+      font-size: 64px;
+      font-weight: 800;
+      line-height: 96px;
+      letter-spacing: 0.05em;
+      text-align: left;
+      color: #042270;
+      margin-left: 7px;
+      margin-top: 20px;
+    }
+    .withothers_image {
+      margin-top: 250px;
+      width: 100%;
+      margin-bottom: 50px;
+    }
+    .sky_heading_book {
+      font-family: "Poppins", sans-serif;
+      font-size: 40px;
+      font-weight: 800;
+      line-height: 20px;
+      letter-spacing: 0.05em;
+      text-align: left;
+      color: #187dff;
+    }
+    .blue_heading_book {
+      font-family: "Poppins", sans-serif;
+      font-size: 40px;
+      font-weight: 800;
+      line-height: 20px;
+      letter-spacing: 0.05em;
+      text-align: left;
+      color: #042270;
+    }
+    .blue_heading_book1 {
+      font-family: "Poppins", sans-serif;
+      font-size: 40px;
+      font-weight: 800;
+      line-height: 40px;
+      letter-spacing: 0.05em;
+      text-align: left;
+      color: #042270;
+    }
+    .para_detail_book_whyus {
+      font-family: "Poppins", sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0.05em;
+      text-align: justify;
+      color: #000000;
+      margin-left: 20px;
+      width: 85%;
+    }
+    .btn_book_now_whyus {
+      width: 231px;
+      height: 52px;
+      border-radius: 30px;
+      background: #042270;
+      font-family: "Poppins", sans-serif;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 26px;
+      text-align: center;
+      color: #ffffff;
+      margin-left: 20px;
+      outline: none;
+      border-color: none;
+      border-style: none;
+      margin-top: 40px;
+    }
+    .round_sky_div_booknow {
+      width: 69px;
+      height: 69px;
+      background: #87cef6;
+      border-radius: 50px;
+      margin-right: 140px;
+      margin-top: 20px;
+    }
+  }
+  @media only screen and (max-width: 1600px) {
+    .blogviewBook_main_div {
+
+      width: 100% !important;
+      height: auto;
+      padding-bottom: 5%;
+    }
+    .main_div_blogview_image_style {
+      height: 380px;
+    }
+    .blogviewiamge {
+      transform: translateY(-35%);
+    }
+    .main_div_bg_blogview_left {
+        background-image: url(./../../../Assets/faq_left.svg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100px;
+        margin-left: 0%;
+        margin-top: 80px;
+      }
+  
+    .blogview_heading_sky {
+      font-family: "Poppins", sans-serif;
+      font-size: 50px;
+      font-weight: 800;
+      line-height: 96px;
+      letter-spacing: 0.05em;
+      text-align: left;
+      color: #187dff;
+      margin-top: 20px;
+    }
+    .blogview_heading_blue {
+      font-family: "Poppins", sans-serif;
+      font-size: 50px;
+      font-weight: 800;
+      line-height: 96px;
+      letter-spacing: 0.05em;
+      text-align: left;
+      color: #042270;
+      margin-left: 7px;
+      margin-top: 20px;
+    }
+    .withothers_image {
+      margin-top: 250px;
+      width: 100%;
+      margin-bottom: 50px;
+    }
+    .sky_heading_book {
+      font-family: "Poppins", sans-serif;
+      font-size: 40px;
+      font-weight: 800;
+      line-height: 20px;
+      letter-spacing: 0.05em;
+      text-align: left;
+      color: #187dff;
+    }
+    .blue_heading_book {
+      font-family: "Poppins", sans-serif;
+      font-size: 40px;
+      font-weight: 800;
+      line-height: 20px;
+      letter-spacing: 0.05em;
+      text-align: left;
+      color: #042270;
+    }
+    .blue_heading_book1 {
+      font-family: "Poppins", sans-serif;
+      font-size: 40px;
+      font-weight: 800;
+      line-height: 40px;
+      letter-spacing: 0.05em;
+      text-align: left;
+      color: #042270;
+    }
+    .para_detail_book_whyus {
+      font-family: "Poppins", sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0.05em;
+      text-align: justify;
+      color: #000000;
+      margin-left: 20px;
+      width: 85%;
+    }
+    .btn_book_now_whyus {
+      width: 231px;
+      height: 52px;
+      border-radius: 30px;
+      background: #042270;
+      font-family: "Poppins", sans-serif;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 26px;
+      text-align: center;
+      color: #ffffff;
+      margin-left: 20px;
+      outline: none;
+      border-color: none;
+      border-style: none;
+      margin-top: 40px;
+    }
+    .round_sky_div_booknow {
+      width: 69px;
+      height: 69px;
+      background: #87cef6;
+      border-radius: 50px;
+      margin-right: 140px;
+      margin-top: 20px;
+    }
+  }
+  @media only screen and (max-width: 1450px) {
+    .blogviewBook_main_div {
+
+      width: 100% !important;
+      height: auto;
+      padding-bottom: 5%;
+    }
+    .main_div_blogview_image_style {
+      height: 380px;
+    }
+    .blogviewiamge {
+      transform: translateY(-35%);
+    }
+    .main_div_bg_blogview_left {
+        background-image: url(./../../../Assets/faq_left.svg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100px;
+        margin-left: 0%;
+        margin-top: 80px;
+      }
+  
+    .blogview_heading_sky {
+      font-family: "Poppins", sans-serif;
+      font-size: 44px;
+      font-weight: 800;
+      line-height: 96px;
+      letter-spacing: 0.05em;
+      text-align: left;
+      color: #187dff;
+      margin-top: 20px;
+    }
+    .blogview_heading_blue {
+      font-family: "Poppins", sans-serif;
+      font-size: 44px;
+      font-weight: 800;
+      line-height: 96px;
+      letter-spacing: 0.05em;
+      text-align: left;
+      color: #042270;
+      margin-left: 7px;
+      margin-top: 20px;
+    }
+    .withothers_image {
+      margin-top: 250px;
+      width: 100%;
+      margin-bottom: 50px;
+    }
+    .sky_heading_book {
+      font-family: "Poppins", sans-serif;
+      font-size: 40px;
+      font-weight: 800;
+      line-height: 20px;
+      letter-spacing: 0.05em;
+      text-align: left;
+      color: #187dff;
+    }
+    .blue_heading_book {
+      font-family: "Poppins", sans-serif;
+      font-size: 40px;
+      font-weight: 800;
+      line-height: 20px;
+      letter-spacing: 0.05em;
+      text-align: left;
+      color: #042270;
+    }
+    .blue_heading_book1 {
+      font-family: "Poppins", sans-serif;
+      font-size: 40px;
+      font-weight: 800;
+      line-height: 40px;
+      letter-spacing: 0.05em;
+      text-align: left;
+      color: #042270;
+    }
+    .para_detail_book_whyus {
+      font-family: "Poppins", sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0.05em;
+      text-align: justify;
+      color: #000000;
+      margin-left: 20px;
+      width: 85%;
+    }
+    .btn_book_now_whyus {
+      width: 231px;
+      height: 52px;
+      border-radius: 30px;
+      background: #042270;
+      font-family: "Poppins", sans-serif;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 26px;
+      text-align: center;
+      color: #ffffff;
+      margin-left: 20px;
+      outline: none;
+      border-color: none;
+      border-style: none;
+      margin-top: 40px;
+    }
+    .round_sky_div_booknow {
+      width: 69px;
+      height: 69px;
+      background: #87cef6;
+      border-radius: 50px;
+      margin-right: 140px;
+      margin-top: 20px;
+    }
+  }
+  @media only screen and (max-width: 1400px) {
+    .blogviewBook_main_div {
+
+      width: 100% !important;
+      height: auto;
+    }
+    .main_div_blogview_image_style {
+      height: 380px;
+    }
+    .blogviewiamge {
+      transform: translateY(-45%);
+      margin-right: -15px;
+      width: 90%;
+    }
+    .main_div_bg_blogview_left {
+        background-image: url(./../../../Assets/faq_left.svg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100px;
+        margin-left: 0%;
+        margin-top: 80px;
+      }
+  
+    .blogview_heading_sky {
+      font-family: "Poppins", sans-serif;
+      font-size: 40px;
+      font-weight: 800;
+      line-height: 96px;
+      letter-spacing: 0.05em;
+      text-align: left;
+      color: #187dff;
+      margin-top: 20px;
+    }
+    .blogview_heading_blue {
+      font-family: "Poppins", sans-serif;
+      font-size: 40px;
+      font-weight: 800;
+      line-height: 96px;
+      letter-spacing: 0.05em;
+      text-align: left;
+      color: #042270;
+      margin-left: 7px;
+      margin-top: 20px;
+    }
+    .withothers_image {
+      margin-top: 250px;
+      width: 100%;
+      margin-bottom: 50px;
+    }
+    .sky_heading_book {
+      font-family: "Poppins", sans-serif;
+      font-size: 30px;
+      font-weight: 800;
+      line-height: 20px;
+      letter-spacing: 0.05em;
+      text-align: left;
+      color: #187dff;
+    }
+    .blue_heading_book {
+      font-family: "Poppins", sans-serif;
+      font-size: 30px;
+      font-weight: 800;
+      line-height: 20px;
+      letter-spacing: 0.05em;
+      text-align: left;
+      color: #042270;
+    }
+    .blue_heading_book1 {
+      font-family: "Poppins", sans-serif;
+      font-size: 30px;
+      font-weight: 800;
+      line-height: 40px;
+      letter-spacing: 0.05em;
+      text-align: left;
+      color: #042270;
+    }
+    .para_detail_book_whyus {
+      font-family: "Poppins", sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0.05em;
+      text-align: justify;
+      color: #000000;
+      margin-left: 20px;
+      width: 85%;
+    }
+    .btn_book_now_whyus {
+      width: 200px;
+      height: 52px;
+      border-radius: 30px;
+      background: #042270;
+      font-family: "Poppins", sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 26px;
+      text-align: center;
+      color: #ffffff;
+      margin-left: 20px;
+      outline: none;
+      border-color: none;
+      border-style: none;
+      margin-top: 10px;
+    }
+    .round_sky_div_booknow {
+      width: 59px;
+      height: 59px;
+      background: #87cef6;
+      border-radius: 50px;
+      margin-right: 140px;
+      margin-top: 10px;
+    }
+  }
+  
+  @media only screen and (max-width: 991px) {
+    .blogviewBook_main_div {
+    
+      width: 100% !important;
+      height: auto;
+    }
+    .main_div_blogview_image_style {
+      height: 300px;
+    }
+    .blogviewiamge {
+      transform: translateY(0%);
+      margin-right: -15px;
+      width: 60%;
+    }
+    .main_div_bg_blogview_left {
+      display: none;
+    }
+  
+    .blogview_heading_sky {
+      font-family: "Poppins", sans-serif;
+      font-size: 34px;
+      font-weight: 800;
+      line-height: 96px;
+      letter-spacing: 0.05em;
+      text-align: left;
+      color: #187dff;
+      margin-top: 20px;
+    }
+    .blogview_heading_blue {
+      font-family: "Poppins", sans-serif;
+      font-size: 34px;
+      font-weight: 800;
+      line-height: 96px;
+      letter-spacing: 0.05em;
+      text-align: left;
+      color: #042270;
+      margin-left: 7px;
+      margin-top: 20px;
+    }
+    .withothers_image {
+      margin-top: 170px;
+      width: 100%;
+      margin-bottom: 50px;
+    }
+    .sky_heading_book {
+      font-family: "Poppins", sans-serif;
+      font-size: 24px;
+      font-weight: 800;
+      line-height: 20px;
+      letter-spacing: 0.05em;
+      text-align: start;
+      color: #187dff;
+    }
+    .blue_heading_book {
+      font-family: "Poppins", sans-serif;
+      font-size: 24px;
+      font-weight: 800;
+      line-height: 20px;
+      letter-spacing: 0.05em;
+      text-align: start;
+      color: #042270;
+    }
+    .blue_heading_book1 {
+      font-family: "Poppins", sans-serif;
+      font-size: 24px;
+      font-weight: 800;
+      line-height: 40px;
+      letter-spacing: 0.05em;
+      text-align: start;
+      color: #042270;
+    }
+    .para_detail_book_whyus {
+      font-family: "Poppins", sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 0.05em;
+      text-align: justify;
+      color: #000000;
+      margin-left: 65px;
+      width: 80%;
+    }
+    .btn_book_now_whyus {
+      width: 180px;
+      height: 52px;
+      border-radius: 30px;
+      background: #042270;
+      font-family: "Poppins", sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 26px;
+      text-align: center;
+      color: #ffffff;
+      margin-left: 65px;
+      outline: none;
+      border-color: none;
+      border-style: none;
+      margin-top: 10px;
+      margin-bottom: 10%;
+    }
+    .round_sky_div_booknow {
+      width: 49px;
+      height: 49px;
+      background: #87cef6;
+      border-radius: 50px;
+      margin-right: 100px;
+      margin-top: 10px;
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .blogviewBook_main_div {
+      
+      width: 100% !important;
+      height: auto;
+    }
+    .main_div_blogview_image_style {
+      height: 220px;
+    }
+    .blogviewiamge {
+      transform: translateY(0%);
+      margin-right: -15px;
+      width: 60%;
+    }
+    .main_div_bg_blogview_left {
+      display: none;
+    }
+  
+    .blogview_heading_sky {
+      font-family: "Poppins", sans-serif;
+      font-size: 34px;
+      font-weight: 800;
+      line-height: 96px;
+      letter-spacing: 0.05em;
+      text-align: left;
+      color: #187dff;
+      margin-top: 20px;
+    }
+    .blogview_heading_blue {
+      font-family: "Poppins", sans-serif;
+      font-size: 34px;
+      font-weight: 800;
+      line-height: 96px;
+      letter-spacing: 0.05em;
+      text-align: left;
+      color: #042270;
+      margin-left: 7px;
+      margin-top: 20px;
+    }
+    .withothers_image {
+      margin-top: 100px;
+      width: 100%;
+      margin-bottom: 50px;
+    }
+    .sky_heading_book {
+      font-family: "Poppins", sans-serif;
+      font-size: 20px;
+      font-weight: 800;
+      line-height: 20px;
+      letter-spacing: 0.05em;
+      text-align: start;
+      color: #187dff;
+    }
+    .blue_heading_book {
+      font-family: "Poppins", sans-serif;
+      font-size: 20px;
+      font-weight: 800;
+      line-height: 20px;
+      letter-spacing: 0.05em;
+      text-align: start;
+      color: #042270;
+    }
+    .blue_heading_book1 {
+      font-family: "Poppins", sans-serif;
+      font-size: 20px;
+      font-weight: 800;
+      line-height: 20px;
+      letter-spacing: 0.05em;
+      text-align: start;
+      color: #042270;
+    }
+    .para_detail_book_whyus {
+      font-family: "Poppins", sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 16px;
+      letter-spacing: 0.05em;
+      text-align: justify;
+      color: #000000;
+      margin-left: 50px;
+      width: 80%;
+    }
+    .btn_book_now_whyus {
+      width: 150px;
+      height: 52px;
+      border-radius: 30px;
+      background: #042270;
+      font-family: "Poppins", sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 26px;
+      text-align: center;
+      color: #ffffff;
+      margin-left: 50px;
+      outline: none;
+      border-color: none;
+      border-style: none;
+      margin-top: 10px;
+      margin-bottom: 10%;
+    }
+    .round_sky_div_booknow {
+      width: 39px;
+      height: 39px;
+      background: #87cef6;
+      border-radius: 50px;
+      margin-right: 70px;
+      margin-top: 5px;
+    }
+  }
+  
+  @media only screen and (max-width: 575px) {
+    .blogviewBook_main_div {
+   
+      width: 100% !important;
+      height: auto;
+    }
+    .main_div_blogview_image_style {
+      height: 10px;
+    }
+    .blogviewiamge {
+      display: none;
+    }
+    .main_div_bg_blogview_left {
+      display: none;
+    }
+  
+    .blogview_heading_sky {
+      font-family: "Poppins", sans-serif;
+      font-size: 28px;
+      font-weight: 800;
+      line-height: 66px;
+      letter-spacing: 0.05em;
+      text-align: left;
+      color: #187dff;
+      margin-top: 20px;
+      margin-left: 55px;
+    }
+    .blogview_heading_blue {
+      font-family: "Poppins", sans-serif;
+      font-size: 28px;
+      font-weight: 800;
+      line-height: 66px;
+      letter-spacing: 0.05em;
+      text-align: left;
+      color: #042270;
+      margin-left: 7px;
+      margin-top: 20px;
+    }
+    .withothers_image {
+      margin-top: 10px;
+      width: 50%;
+      height: 200px;
+      margin-left: 25%;
+      margin-bottom: 10px;
+    }
+    .sky_heading_book {
+      font-family: "Poppins", sans-serif;
+      font-size: 20px;
+      font-weight: 800;
+      line-height: 20px;
+      letter-spacing: 0.05em;
+      text-align: start;
+      color: #187dff;
+    }
+    .blue_heading_book {
+      font-family: "Poppins", sans-serif;
+      font-size: 20px;
+      font-weight: 800;
+      line-height: 20px;
+      letter-spacing: 0.05em;
+      text-align: start;
+      color: #042270;
+    }
+    .blue_heading_book1 {
+      font-family: "Poppins", sans-serif;
+      font-size: 20px;
+      font-weight: 800;
+      line-height: 20px;
+      letter-spacing: 0.05em;
+      text-align: start;
+      color: #042270;
+    }
+    .para_detail_book_whyus {
+      font-family: "Poppins", sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 16px;
+      letter-spacing: 0.05em;
+      text-align: justify;
+      color: #000000;
+      margin-left: 50px;
+      width: 80%;
+    }
+    .btn_book_now_whyus {
+      width: 150px;
+      height: 52px;
+      border-radius: 30px;
+      background: #042270;
+      font-family: "Poppins", sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 26px;
+      text-align: center;
+      color: #ffffff;
+      margin-left: 50px;
+      outline: none;
+      border-color: none;
+      border-style: none;
+      margin-top: 10px;
+      margin-bottom: 10%;
+    }
+  }
+  
+  @media only screen and (max-width: 425px) {
+    .blogviewBook_main_div {
+   
+      width: 100% !important;
+      height: auto;
+    }
+    .main_div_blogview_image_style {
+      height: 10px;
+    }
+    .blogviewiamge {
+      display: none;
+    }
+    .main_div_bg_blogview_left {
+      display: none;
+    }
+  
+    .blogview_heading_sky {
+      font-family: "Poppins", sans-serif;
+      font-size: 24px;
+      font-weight: 800;
+      line-height: 66px;
+      letter-spacing: 0.05em;
+      text-align: left;
+      color: #187dff;
+      margin-top: 20px;
+      margin-left: 55px;
+    }
+    .blogview_heading_blue {
+      font-family: "Poppins", sans-serif;
+      font-size: 24px;
+      font-weight: 800;
+      line-height: 66px;
+      letter-spacing: 0.05em;
+      text-align: left;
+      color: #042270;
+      margin-left: 7px;
+      margin-top: 20px;
+    }
+    .withothers_image {
+      margin-top: 10px;
+      width: 50%;
+      height: 130px;
+      margin-left: 25%;
+      margin-bottom: 10px;
+    }
+    .sky_heading_book {
+      font-family: "Poppins", sans-serif;
+      font-size: 18px;
+      font-weight: 800;
+      line-height: 20px;
+      letter-spacing: 0.05em;
+      text-align: start;
+      color: #187dff;
+    }
+    .blue_heading_book {
+      font-family: "Poppins", sans-serif;
+      font-size: 18px;
+      font-weight: 800;
+      line-height: 20px;
+      letter-spacing: 0.05em;
+      text-align: start;
+      color: #042270;
+    }
+    .blue_heading_book1 {
+      font-family: "Poppins", sans-serif;
+      font-size: 18px;
+      font-weight: 800;
+      line-height: 10px;
+      letter-spacing: 0.05em;
+      text-align: start;
+      color: #042270;
+    }
+    .para_detail_book_whyus {
+      font-family: "Poppins", sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 16px;
+      letter-spacing: 0.05em;
+      text-align: justify;
+      color: #000000;
+      margin-left: 43px;
+      width: 80%;
+    }
+    .btn_book_now_whyus {
+      width: 150px;
+      height: 52px;
+      border-radius: 30px;
+      background: #042270;
+      font-family: "Poppins", sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 26px;
+      text-align: center;
+      color: #ffffff;
+      margin-left: 43px;
+      outline: none;
+      border-color: none;
+      border-style: none;
+      margin-top: 10px;
+      margin-bottom: 10%;
+    }
+  }
+  
+
+
+  .div_not_flow_data{
+    overflow: hidden !important;
+  }

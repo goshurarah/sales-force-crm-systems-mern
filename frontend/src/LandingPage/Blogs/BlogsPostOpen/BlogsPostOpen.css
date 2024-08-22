@@ -1,0 +1,360 @@
+.main_div_blogopen_conatainer {
+    width: 95%;
+  }
+  @media only screen and (max-width: 992px) {
+    .main_div_blogopen_conatainer {
+      width: 100%;
+    }
+  }
+  .quote_main_div {
+    padding: 40px;
+    font-size: 24px;
+    line-height: 45px;
+    position: relative;
+    color: #262420;
+    margin: 15px 0px 40px;
+    background: #ffffff;
+    border-left: 5px solid #87CEF6;
+    border: 0px, 0px, 0px, 5px;
+  }
+  .para_quote {
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .Tag_heading_blog {
+    color: #1d4480;
+    font-family: "Red Hat Display", Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .comment_para_blog {
+    color:#1d4480;
+    font-family: "Inter";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+  
+  .comment_person_name {
+    color: #4d4d4f;
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 70%;
+  }
+  .comment_date {
+    color: #4d4d4f;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  .comment_para {
+    color: #4d4d4f;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .reply_heading {
+    color: #4d4d4f;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    cursor: pointer;
+  }
+  .reply_heading:hover {
+    color: #1d4480;
+  }
+  .comment_picture_style {
+    border-radius: 50px;
+    height: 80px;
+    width: 80px;
+  }
+  
+  .enter_comment_here_input {
+    padding-left: 10px;
+    padding-top: 10px;
+    color: #262420;
+    width: 100%;
+    height: 100px;
+    border-color: none;
+    border: none;
+    outline: none;
+    background-color: rgba(70, 58, 58, 0.05);
+    margin-top: 3%;
+    border-radius: 10px;
+  }
+  .enter_email_here_input {
+    padding-left: 10px;
+    padding-top: 10px;
+    color: #262420;
+    width: 100%;
+    height: 60px;
+    border-color: none;
+    border: none;
+    outline: none;
+    background-color: rgba(70, 58, 58, 0.05);
+    margin-top: 2%;
+  }
+  .cancel_button_reply {
+    margin-top: 2%;
+    background: #dedfe5 !important;
+    border: 1px solid #ffffff !important;
+    border-radius: 10px !important;
+    box-shadow: 3px 3px 0px 0px #1d4480 !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 12px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    color: #1d4480 !important ;
+    width: 20% !important;
+    height: 50px !important;
+  }
+  .post_comment_button {
+    margin-top: 2%;
+    background: #1d4480 !important;
+    border: 1px solid #ffffff !important;
+    border-radius: 10px !important;
+    box-shadow: 3px 3px 0px 0px #1d4480 !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 12px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    color: #ffffff !important ;
+    width: 25% !important;
+    height: 50px !important;
+    margin-bottom: 47%;
+  }
+  .main_div_tags_social_media {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* blog navbar style */
+  
+  .main_div__blogsOpen_navbar {
+    width: 100%;
+    height: 350px;
+    background-color: grey;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 0% !important;
+    overflow: hidden;
+  }
+  
+  .heading__blogsOpen {
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 120% */
+    padding-top: 14%;
+    animation: slideInFromRight 1s ease-out; /* Animation */
+  }
+  
+  /* Keyframes for the animation */
+  @keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%); /* Start off the screen */
+    }
+    100% {
+      transform: translateX(0); /* Slide in to original position */
+    }
+  }
+  .para__blogsOpen_white {
+    color: #fff;
+  
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+    text-transform: uppercase;
+  }
+  .orange_line__blogsOpen {
+    width: 16px;
+    height: 2px;
+    flex-shrink: 0;
+    background: #fff;
+    margin-top: 11px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .para__blogsOpen_orange {
+    color: #f90;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+    text-transform: capitalize;
+  }
+  @media only screen and (max-width: 1400px) {
+    .heading__blogsOpen {
+      color: #fff;
+      font-family: "Poppins", sans-serif;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 28px;
+      padding-top: 16%;
+    }
+  }
+  
+  @media only screen and (max-width: 1200px) {
+    .heading__blogsOpen {
+      color: #fff;
+      font-family: "Poppins", sans-serif;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 28px;
+      padding-top: 18%;
+    }
+  }
+  @media only screen and (max-width: 991px) {
+    .main_div__blogsOpen_navbar {
+      width: 100%;
+      height: auto;
+      background-color: grey;
+      padding-bottom: 10% !important;
+    }
+  
+    .heading__blogsOpen {
+      color: #fff;
+      font-family: "Poppins", sans-serif;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 28px; /* 120% */
+      padding-top: 20%;
+    }
+    .para__blogsOpen_white {
+      color: #fff;
+  
+      font-family: "Poppins", sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 26px; /* 162.5% */
+      text-transform: uppercase;
+    }
+    .orange_line_cn {
+      width: 14px;
+      height: 2px;
+      flex-shrink: 0;
+      background: #fff;
+      margin-top: 11px;
+      margin-right: 5px;
+      margin-left: 5px;
+    }
+    .para__blogsOpen_orange {
+      color: #f90;
+      font-family: "Poppins", sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 26px; /* 162.5% */
+      text-transform: capitalize;
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .heading__blogsOpen {
+      color: #fff;
+      font-family: "Poppins", sans-serif;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 28px; /* 120% */
+      padding-top: 22%;
+    }
+  }
+  
+  @media only screen and (max-width: 567px) {
+    .heading__blogsOpen {
+      color: #fff;
+      font-family: "Poppins", sans-serif;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 28px; /* 120% */
+      padding-top: 30%;
+    }
+  }
+  
+  @media only screen and (max-width: 400px) {
+    .heading__blogsOpen {
+      color: #fff;
+      font-family: "Poppins", sans-serif;
+      font-size: 26px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 28px; /* 120% */
+      padding-top: 36%;
+    }
+  }
+  
+  .main_div_background_color {
+    background-color: #f3f3f5 !important;
+    margin: 0 !important;
+    padding: 3% !important;
+  }
+  
+  .blue_button_search_blog {
+    background: #1d4480;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    border-color: none;
+    border-style: none;
+    margin-top: 4px;
+    margin-right: 5px;
+  }
+  .hr_tag_blue {
+    background: #1d4480;
+    width: 5px;
+    height: 26.39px;
+    top: 60px;
+    left: 60px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  
+  .icon_color_social {
+    color: #1d4480;
+    margin-right: 5%;
+  }
+  .icon_color_social:hover {
+    color: #87CEF6;
+  }
+  
+  
+  .dotted-line {
+    border-top: 3px dotted #CCCCCC; 
+    width: 90%; 
+    margin-bottom: 15px;
+  }
+  

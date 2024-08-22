@@ -1,0 +1,943 @@
+.main_div_SalesForceProducts {
+  width: 100%;
+  background: #fdf6f2;
+  height: auto;
+  padding-bottom: 10%;
+}
+.hr_row_line {
+  width: 82%;
+  margin-left: 9%;
+  flex-shrink: 0;
+  background: #fdf6f2;
+  border-top: 1px solid #042270;
+}
+.left_image_style_productsales {
+  margin-top: 0px;
+  transform: translatey(-30%) !important;
+}
+.sky_heading_salesproduct {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: #187dff;
+  margin-top: 80px;
+}
+.blue_heading_salesproduct {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 60px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: #042270;
+}
+.main_div_cards_slick {
+  width: 100%;
+  height: 440px;
+  border-radius: 80px;
+  background: #87cef6;
+  margin-top: 80px;
+  margin-bottom: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.desp_card_slick {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: #000000;
+  margin-left: 20%;
+  padding-top: 60px;
+  width: 40%;
+  padding-bottom: 80px;
+}
+.main_div_card {
+  width: 100%;
+  height: 378px;
+  border-radius: 80px;
+  box-shadow: 0px 4px 4px 4px #0000000a;
+  background: #ffffff;
+
+}
+.slick-next:before,
+.slick-prev:before {
+  display: none;
+}
+
+.slick-next {
+  display: none;
+  /* right: 0px !important; */
+}
+.slick-dots {
+    bottom: 358px !important;
+    width: 100%;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    right: 78% !important;
+}
+
+.slick-dots li button:before {
+    font-size: 20px;
+    line-height: 20px;
+    position: absolute;
+    
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: #042270 !important;
+    ;
+}
+
+
+.icon_card {
+  margin-top: 40px;
+}
+.heading_card {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: #042270;
+  margin-top: 20px;
+}
+.para_in_card {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: #000000;
+  width: 75%;
+  margin-top: 20px;
+}
+.blue_div_in_card{
+    width: 40px;
+height: 40px;
+margin-right: 50px;
+padding: 12px;
+margin-top: 5px;
+border-radius: 30px;
+background: #042270;
+
+}
+
+
+
+@media only screen and (max-width: 2100px) {
+    .main_div_SalesForceProducts {
+        width: 100%;
+        background: #fdf6f2;
+        height: auto;
+        padding-bottom: 10%;
+      }
+      .hr_row_line {
+        width: 82%;
+        margin-left: 9%;
+        flex-shrink: 0;
+        background: #fdf6f2;
+        border-top: 1px solid #042270;
+      }
+      .left_image_style_productsales {
+        margin-top: 0px;
+        transform: translatey(-30%) !important;
+      }
+      .sky_heading_salesproduct {
+        font-family: "Poppins", sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: 0.05em;
+        text-align: left;
+        color: #187dff;
+        margin-top: 80px;
+      }
+      .blue_heading_salesproduct {
+        font-family: "Poppins", sans-serif;
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 60px;
+        letter-spacing: 0.05em;
+        text-align: left;
+        color: #042270;
+      }
+      .main_div_cards_slick {
+        width: 100%;
+        height: 440px;
+        border-radius: 80px;
+        background: #87cef6;
+        margin-top: 80px;
+        margin-bottom: 10%;
+        padding-left: 5%;
+        padding-right: 5%;
+      }
+      .desp_card_slick {
+        font-family: "Poppins", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.05em;
+        text-align: left;
+        color: #000000;
+        margin-left: 20%;
+        padding-top: 60px;
+        width: 40%;
+        padding-bottom: 80px;
+      }
+      .main_div_card {
+        width: 100%;
+        height: 378px;
+        border-radius: 80px;
+        box-shadow: 0px 4px 4px 4px #0000000a;
+        background: #ffffff;
+      
+      }
+      .icon_card {
+        margin-top: 20px;
+      }
+      .heading_card {
+        font-family: "Poppins", sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: 0.05em;
+        text-align: center;
+        color: #042270;
+        margin-top: 10px;
+      }
+      .para_in_card {
+        font-family: "Poppins", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.05em;
+        text-align: center;
+        color: #000000;
+        width: 75%;
+        margin-top: 10px;
+      }
+      .blue_div_in_card{
+          width: 40px;
+      height: 40px;
+      margin-right: 50px;
+      padding: 12px;
+      margin-top: 5px;
+      border-radius: 30px;
+      background: #042270;
+      
+      }
+      
+      
+}
+
+
+
+@media only screen and (max-width: 1610px) {
+    .main_div_SalesForceProducts {
+        width: 100%;
+        background: #fdf6f2;
+        height: auto;
+        padding-bottom: 10%;
+      }
+      .hr_row_line {
+        width: 82%;
+        margin-left: 9%;
+        flex-shrink: 0;
+        background: #fdf6f2;
+        border-top: 1px solid #042270;
+      }
+      .left_image_style_productsales {
+        margin-top: 0px;
+        transform: translatey(-30%) !important;
+      }
+      .sky_heading_salesproduct {
+        font-family: "Poppins", sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        line-height:28px;
+        letter-spacing: 0.05em;
+        text-align: left;
+        color: #187dff;
+        margin-top: 80px;
+      }
+      .blue_heading_salesproduct {
+        font-family: "Poppins", sans-serif;
+        font-size: 30px;
+        font-weight: 800;
+        line-height: 40px;
+        letter-spacing: 0.05em;
+        text-align: left;
+        color: #042270;
+      }
+      .main_div_cards_slick {
+        width: 100%;
+        height: 440px;
+        border-radius: 80px;
+        background: #87cef6;
+        margin-top: 80px;
+        margin-bottom: 10%;
+        padding-left: 5%;
+        padding-right: 5%;
+      }
+      .desp_card_slick {
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.05em;
+        text-align: left;
+        color: #000000;
+        margin-left: 20%;
+        padding-top: 60px;
+        width: 50%;
+        padding-bottom: 80px;
+      }
+      .main_div_card {
+        width: 100%;
+        height: 378px;
+        border-radius: 80px;
+        box-shadow: 0px 4px 4px 4px #0000000a;
+        background: #ffffff;
+      
+      }
+
+      .slick-dots {
+        bottom: 398px !important;
+        width: 100%;
+        margin: 0;
+        list-style: none;
+        text-align: center;
+        right: 76% !important;
+    }
+
+      .icon_card {
+        margin-top: 20px;
+      }
+      .heading_card {
+        font-family: "Poppins", sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: 0.05em;
+        text-align: center;
+        color: #042270;
+        margin-top: 10px;
+      }
+      .para_in_card {
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0.05em;
+        text-align: center;
+        color: #000000;
+        width: 75%;
+        margin-top: 10px;
+      }
+      .blue_div_in_card{
+          width: 40px;
+      height: 40px;
+      margin-right: 50px;
+      padding: 12px;
+      margin-top: 5px;
+      border-radius: 30px;
+      background: #042270;
+      
+      }
+      
+      
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+    .main_div_SalesForceProducts {
+        width: 100%;
+        background: #fdf6f2;
+        height: auto;
+        padding-bottom: 10%;
+      }
+      .hr_row_line {
+        width: 82%;
+        margin-left: 9%;
+        flex-shrink: 0;
+        background: #fdf6f2;
+        border-top: 1px solid #042270;
+      }
+      .left_image_style_productsales {
+        margin-top: 0px;
+        transform: translatey(-30%) !important;
+      }
+      .sky_heading_salesproduct {
+        font-family: "Poppins", sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        line-height:28px;
+        letter-spacing: 0.05em;
+        text-align: left;
+        color: #187dff;
+        margin-top: 80px;
+      }
+      .blue_heading_salesproduct {
+        font-family: "Poppins", sans-serif;
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 40px;
+        letter-spacing: 0.05em;
+        text-align: left;
+        color: #042270;
+      }
+      .main_div_cards_slick {
+        width: 100%;
+        height: 440px;
+        border-radius: 80px;
+        background: #87cef6;
+        margin-top: 80px;
+        margin-bottom: 10%;
+        padding-left: 5%;
+        padding-right: 5%;
+      }
+      .desp_card_slick {
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.05em;
+        text-align: left;
+        color: #000000;
+        margin-left: 20%;
+        padding-top: 60px;
+        width: 80%;
+        padding-bottom: 80px;
+      }
+      .main_div_card {
+        width: 100%;
+        height: 378px;
+        border-radius: 80px;
+        box-shadow: 0px 4px 4px 4px #0000000a;
+        background: #ffffff;
+      
+      }
+      .icon_card {
+        margin-top: 20px;
+      }
+      .heading_card {
+        font-family: "Poppins", sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: 0.05em;
+        text-align: center;
+        color: #042270;
+        margin-top: 10px;
+      }
+      .para_in_card {
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0.05em;
+        text-align: center;
+        color: #000000;
+        width: 75%;
+        margin-top: 10px;
+      }
+      .blue_div_in_card{
+          width: 40px;
+      height: 40px;
+      margin-right: 50px;
+      padding: 12px;
+      margin-top: 5px;
+      border-radius: 30px;
+      background: #042270;
+      
+      }
+      
+      
+}
+
+
+
+
+@media only screen and (max-width: 991px) {
+    .main_div_SalesForceProducts {
+        width: 100%;
+        background: #fdf6f2;
+        height: auto;
+        padding-bottom: 10%;
+      }
+      .hr_row_line {
+        width: 82%;
+        margin-left: 9%;
+        flex-shrink: 0;
+        background: #fdf6f2;
+        border-top: 1px solid #042270;
+      }
+      .left_image_style_productsales {
+        margin-top: 0px;
+        transform: translatey(-30%) !important;
+      }
+      .sky_heading_salesproduct {
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        line-height:24px;
+        letter-spacing: 0.05em;
+        text-align: left;
+        color: #187dff;
+        margin-top: 80px;
+      }
+      .blue_heading_salesproduct {
+        font-family: "Poppins", sans-serif;
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 22px;
+        letter-spacing: 0.05em;
+        text-align: left;
+        color: #042270;
+      }
+      .main_div_cards_slick {
+        width: 100%;
+        height: 440px;
+        border-radius: 80px;
+        background: #87cef6;
+        margin-top: 80px;
+        margin-bottom: 10%;
+        padding-left: 5%;
+        padding-right: 5%;
+      }
+
+      
+      .slick-dots {
+        bottom: 428px !important;
+        width: 100%;
+        margin: 0;
+        list-style: none;
+        text-align: center;
+        right: 75% !important;
+    }
+
+
+
+      .desp_card_slick {
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.05em;
+        text-align: left;
+        color: #000000;
+        margin-left: 20%;
+        padding-top: 60px;
+        width: 80%;
+        padding-bottom: 80px;
+      }
+      .main_div_card {
+        width: 100%;
+        height: 378px;
+        border-radius: 80px;
+        box-shadow: 0px 4px 4px 4px #0000000a;
+        background: #ffffff;
+      
+      }
+      .icon_card {
+        margin-top: 20px;
+      }
+      .heading_card {
+        font-family: "Poppins", sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: 0.05em;
+        text-align: center;
+        color: #042270;
+        margin-top: 10px;
+      }
+      .para_in_card {
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0.05em;
+        text-align: center;
+        color: #000000;
+        width: 75%;
+        margin-top: 10px;
+      }
+      .blue_div_in_card{
+          width: 40px;
+      height: 40px;
+      margin-right: 50px;
+      padding: 12px;
+      margin-top: 5px;
+      border-radius: 30px;
+      background: #042270;
+      
+      }
+      
+      
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    .main_div_SalesForceProducts {
+        width: 100%;
+        background: #fdf6f2;
+        height: auto;
+        padding-bottom: 50%;
+        padding-top: 25px;
+      }
+      .hr_row_line {
+        width: 60%;
+        margin-left: 20%;
+        flex-shrink: 0;
+        background: #fdf6f2;
+        border-top: 1px solid #042270;
+      }
+      .left_image_style_productsales {
+        margin-top: 0px;
+        transform: translatey(-30%) !important;
+      }
+      .sky_heading_salesproduct {
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        line-height:24px;
+        letter-spacing: 0.05em;
+        text-align: left;
+        color: #187dff;
+        margin-top: 80px;
+      }
+      .blue_heading_salesproduct {
+        font-family: "Poppins", sans-serif;
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 22px;
+        letter-spacing: 0.05em;
+        text-align: left;
+        color: #042270;
+      }
+      .main_div_cards_slick {
+        width: 90%;
+        height: 440px;
+        margin-left: 5%;
+        border-radius: 80px;
+        background: #87cef6;
+        margin-top: 2px;
+        margin-bottom: 10%;
+        padding-left: 5%;
+        padding-right: 5%;
+      }
+
+      .slick-dots {
+        bottom: 678px !important;
+        width: 100%;
+        margin: 0;
+        list-style: none;
+        text-align: center;
+        right: 0% !important;
+    }
+
+
+
+      .desp_card_slick {
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.05em;
+        text-align: left;
+        color: #000000;
+        margin-left: 20%;
+        padding-top: 60px;
+        width: 80%;
+        padding-bottom: 80px;
+      }
+      .main_div_card {
+        width: 100%;
+        height: 378px;
+        border-radius: 80px;
+        box-shadow: 0px 4px 4px 4px #0000000a;
+        background: #ffffff;
+      
+      }
+      .icon_card {
+        margin-top: 20px;
+      }
+      .heading_card {
+        font-family: "Poppins", sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: 0.05em;
+        text-align: center;
+        color: #042270;
+        margin-top: 10px;
+      }
+      .para_in_card {
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0.05em;
+        text-align: center;
+        color: #000000;
+        width: 75%;
+        margin-top: 10px;
+      }
+      .blue_div_in_card{
+          width: 40px;
+      height: 40px;
+      margin-right: 50px;
+      padding: 12px;
+      margin-top: 5px;
+      border-radius: 30px;
+      background: #042270;
+      
+      }
+      
+      
+}
+
+
+@media only screen and (max-width: 425px) {
+    .main_div_SalesForceProducts {
+        width: 100%;
+        background: #fdf6f2;
+        height: auto;
+        padding-bottom: 50%;
+        padding-top: 25px;
+      }
+      .hr_row_line {
+        width: 60%;
+        margin-left: 20%;
+        flex-shrink: 0;
+        background: #fdf6f2;
+        border-top: 1px solid #042270;
+      }
+      .left_image_style_productsales {
+        margin-top:30px;
+        margin-left: -30px;
+        transform: translatey(-30%) !important;
+      }
+      .sky_heading_salesproduct {
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        line-height:24px;
+        letter-spacing: 0.05em;
+        text-align: left;
+        color: #187dff;
+        margin-top: 80px;
+      }
+      .blue_heading_salesproduct {
+        font-family: "Poppins", sans-serif;
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 22px;
+        letter-spacing: 0.05em;
+        text-align: left;
+        color: #042270;
+      }
+      .main_div_cards_slick {
+        width: 70%;
+        height: 340px;
+        margin-left: 15%;
+        border-radius: 80px;
+        background: #87cef6;
+        margin-top: 2px;
+        margin-bottom: 10%;
+        padding-left: 5%;
+        padding-right: 5%;
+      }
+
+      .slick-dots {
+        bottom: 618px !important;
+        width: 100%;
+        margin: 0;
+        list-style: none;
+        text-align: center;
+        right: 0% !important;
+    }
+
+
+      .desp_card_slick {
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.05em;
+        text-align: left;
+        color: #000000;
+        margin-left: 20%;
+        padding-top: 60px;
+        width: 80%;
+        padding-bottom: 20px;
+      }
+      .main_div_card {
+        width: 100%;
+        height: 338px;
+        border-radius: 80px;
+        box-shadow: 0px 4px 4px 4px #0000000a;
+        background: #ffffff;
+      
+      }
+      .icon_card {
+        margin-top: 20px;
+      }
+      .heading_card {
+        font-family: "Poppins", sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: 0.05em;
+        text-align: center;
+        color: #042270;
+        margin-top: 10px;
+      }
+      .para_in_card {
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0.05em;
+        text-align: center;
+        color: #000000;
+        width: 75%;
+        margin-top: 10px;
+      }
+      .blue_div_in_card{
+          width: 40px;
+      height: 40px;
+      margin-right: 50px;
+      padding: 12px;
+      margin-top: 5px;
+      border-radius: 30px;
+      background: #042270;
+      
+      }
+      
+      
+}
+
+
+
+@media only screen and (max-width: 350px) {
+    .main_div_SalesForceProducts {
+        width: 100%;
+        background: #fdf6f2;
+        height: auto;
+        padding-bottom: 50%;
+        padding-top: 25px;
+      }
+      .hr_row_line {
+        width: 60%;
+        margin-left: 20%;
+        flex-shrink: 0;
+        background: #fdf6f2;
+        border-top: 1px solid #042270;
+      }
+      .left_image_style_productsales {
+        margin-top: 0px;
+        transform: translatey(-30%) !important;
+      }
+      .sky_heading_salesproduct {
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        line-height:24px;
+        letter-spacing: 0.05em;
+        text-align: left;
+        color: #187dff;
+        margin-top: 80px;
+      }
+      .blue_heading_salesproduct {
+        font-family: "Poppins", sans-serif;
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 22px;
+        letter-spacing: 0.05em;
+        text-align: left;
+        color: #042270;
+      }
+      .main_div_cards_slick {
+        width: 90%;
+        height: 340px;
+        margin-left: 5%;
+        border-radius: 80px;
+        background: #87cef6;
+        margin-top: 2px;
+        margin-bottom: 10%;
+        padding-left: 5%;
+        padding-right: 5%;
+      }
+      .desp_card_slick {
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.05em;
+        text-align: left;
+        color: #000000;
+        margin-left: 20%;
+        padding-top: 60px;
+        width: 80%;
+        padding-bottom: 20px;
+      }
+      .main_div_card {
+        width: 100%;
+        height: 338px;
+        border-radius: 80px;
+        box-shadow: 0px 4px 4px 4px #0000000a;
+        background: #ffffff;
+      
+      }
+      .icon_card {
+        margin-top: 20px;
+      }
+      .heading_card {
+        font-family: "Poppins", sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: 0.05em;
+        text-align: center;
+        color: #042270;
+        margin-top: 10px;
+      }
+      .para_in_card {
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0.05em;
+        text-align: center;
+        color: #000000;
+        width: 75%;
+        margin-top: 10px;
+      }
+      .blue_div_in_card{
+          width: 40px;
+      height: 40px;
+      margin-right: 50px;
+      padding: 12px;
+      margin-top: 5px;
+      border-radius: 30px;
+      background: #042270;
+      
+      }
+      
+      
+}

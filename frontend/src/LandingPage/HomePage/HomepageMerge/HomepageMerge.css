@@ -1,0 +1,21 @@
+.div_combine_nav_start_suite{
+    overflow: hidden;
+}
+
+.scroll-to-top-button {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #87CEF6;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .scroll-to-top-button:hover {
+    background-color: #46b6f7;
+  }
+  

@@ -1,0 +1,779 @@
+.main_div_BookCleaningServicesToday {
+  background: #fdf6f2;
+  width: 100%;
+  height: auto;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+.cleaning_image_style {
+  background-image: url("./../../../Assets/bookcleanings_image.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 578px;
+}
+.cleaning_image_style_blue_inside {
+  background: #042270;
+  width: 233px;
+  height: 262px;
+  border-radius: 30px 30px 0px 30px;
+  margin-top: 35.5%;
+}
+.sky_heading_book {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 40px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: #187dff;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+
+.blue_heading_book {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 40px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: #042270;
+  margin-left: 10px;
+  margin-top: 40px;
+}
+
+.blue_heading_book1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 40px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: #042270;
+  margin-left: 20px;
+}
+.para_desp_book {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: #000000;
+  width: 90%;
+  text-align: justify;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+.btn_book {
+  width: 231px;
+  height: 52px;
+  border-radius: 30px;
+  opacity: 0px;
+  background: #042270;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 37px;
+  margin-left: 20px;
+  border-style: none;
+  border-color: none;
+}
+.round_img_sky_book {
+  width: 89px;
+  height: 89px;
+  background: #87cef6;
+  border-radius: 50px;
+  margin-right: 70px;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 1600px) {
+  .main_div_BookCleaningServicesToday {
+    background: #fdf6f2;
+    width: 100%;
+    height: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+  .cleaning_image_style {
+    background-image: url("./../../../Assets/bookcleanings_image.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 578px;
+  }
+  .cleaning_image_style_blue_inside {
+    background: #042270;
+    width: 233px;
+    height: 262px;
+    border-radius: 30px 30px 0px 30px;
+    margin-top: 35.5%;
+  }
+  .sky_heading_book {
+    font-family: "Poppins", sans-serif;
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 34px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #187dff;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  .blue_heading_book {
+    font-family: "Poppins", sans-serif;
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 34px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #042270;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+
+  .blue_heading_book1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 34px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #042270;
+    margin-left: 20px;
+  }
+  .para_desp_book {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #000000;
+    width: 90%;
+    text-align: justify;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  .btn_book {
+    width: 231px;
+    height: 52px;
+    border-radius: 30px;
+    opacity: 0px;
+    background: #042270;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 25px;
+    margin-left: 20px;
+    border-style: none;
+    border-color: none;
+  }
+  .round_img_sky_book {
+    width: 70px;
+    height: 70px;
+    background: #87cef6;
+    border-radius: 50px;
+    margin-right: 70px;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .main_div_BookCleaningServicesToday {
+    background: #fdf6f2;
+    width: 100%;
+    height: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+  .cleaning_image_style {
+    background-image: url("./../../../Assets/bookcleanings_image.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 578px;
+  }
+  .cleaning_image_style_blue_inside {
+    background: #042270;
+    width: 233px;
+    height: 262px;
+    border-radius: 30px 30px 0px 30px;
+    margin-top: 35.5%;
+  }
+  .sky_heading_book {
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #187dff;
+    margin-left: 20px;
+    margin-top: 15px;
+  }
+
+  .blue_heading_book {
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #042270;
+    margin-left: 10px;
+    margin-top: 15px;
+  }
+
+  .blue_heading_book1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #042270;
+    margin-left: 20px;
+  }
+  .para_desp_book {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #000000;
+    width: 90%;
+    text-align: justify;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  .btn_book {
+    width: 200px;
+    height: 52px;
+    border-radius: 30px;
+    opacity: 0px;
+    background: #042270;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 15px;
+    margin-left: 20px;
+    border-style: none;
+    border-color: none;
+  }
+  .round_img_sky_book {
+    width: 60px;
+    height: 60px;
+    background: #87cef6;
+    border-radius: 50px;
+    margin-right: 70px;
+    margin-top: 7px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .main_div_BookCleaningServicesToday {
+    background: #fdf6f2;
+    width: 100%;
+    height: auto;
+    padding-top: 7%;
+    padding-bottom: 4%;
+  }
+  .cleaning_image_style {
+    background-image: url("./../../../Assets/bookcleanings_image.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 60%;
+    margin-left: 20%;
+    height: 460px;
+  }
+  .cleaning_image_style_blue_inside {
+    background: #042270;
+    width: 233px;
+    height: 262px;
+    border-radius: 30px 30px 0px 30px;
+    margin-top: 35.5%;
+  }
+  .sky_heading_book {
+    font-family: "Poppins", sans-serif;
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #187dff;
+    margin-left: 10%;
+    margin-top: 15px;
+  }
+
+  .blue_heading_book {
+    font-family: "Poppins", sans-serif;
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #042270;
+    margin-left: 10px;
+    margin-top: 15px;
+  }
+
+  .blue_heading_book1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #042270;
+    margin-left: 10%;
+  }
+  .para_desp_book {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #000000;
+    width: 80%;
+    text-align: justify;
+    margin-left: 10%;
+    margin-top: 10px;
+  }
+  .btn_book {
+    width: 180px;
+    height: 52px;
+    border-radius: 30px;
+    opacity: 0px;
+    background: #042270;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 15px;
+    margin-left: 10%;
+    border-style: none;
+    border-color: none;
+  }
+  .round_img_sky_book {
+    width: 60px;
+    height: 60px;
+    background: #87cef6;
+    border-radius: 50px;
+    margin-right: 70px;
+    margin-top: 7px;
+  }
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    .main_div_BookCleaningServicesToday {
+      background: #fdf6f2;
+      width: 100%;
+      height: auto;
+      padding-top: 4%;
+      padding-bottom: 4%;
+    }
+    .cleaning_image_style {
+      background-image: url("./../../../Assets/bookcleanings_image.svg");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      width: 60%;
+      margin-left: 20%;
+      height: 380px;
+    }
+    .cleaning_image_style_blue_inside {
+      background: #042270;
+      width: 233px;
+      height: 262px;
+      border-radius: 30px 30px 0px 30px;
+      margin-top: 35.5%;
+    }
+    .sky_heading_book {
+      font-family: "Poppins", sans-serif;
+      font-size: 22px;
+      font-weight: 800;
+      line-height: 22px;
+      letter-spacing: 0.05em;
+      text-align: left;
+      color: #187dff;
+      margin-left: 10%;
+      margin-top: 15px;
+    }
+  
+    .blue_heading_book {
+      font-family: "Poppins", sans-serif;
+      font-size: 22px;
+      font-weight: 800;
+      line-height: 22px;
+      letter-spacing: 0.05em;
+      text-align: left;
+      color: #042270;
+      margin-left: 10px;
+      margin-top: 15px;
+    }
+  
+    .blue_heading_book1 {
+      font-family: "Poppins", sans-serif;
+      font-size: 22px;
+      font-weight: 800;
+      line-height: 22px;
+      letter-spacing: 0.05em;
+      text-align: left;
+      color: #042270;
+      margin-left: 10%;
+    }
+    .para_desp_book {
+      font-family: "Poppins", sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 16px;
+      letter-spacing: 0.05em;
+      text-align: left;
+      color: #000000;
+      width: 80%;
+      text-align: justify;
+      margin-left: 10%;
+      margin-top: 10px;
+    }
+    .btn_book {
+      width: 180px;
+      height: 52px;
+      border-radius: 30px;
+      opacity: 0px;
+      background: #042270;
+      font-family: "Poppins", sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 26px;
+      text-align: center;
+      color: #ffffff;
+      margin-top: 15px;
+      margin-left: 10%;
+      border-style: none;
+      border-color: none;
+    }
+    .round_img_sky_book {
+      width: 50px;
+      height: 50px;
+      background: #87cef6;
+      border-radius: 50px;
+      margin-right: 70px;
+      margin-top: 7px;
+    }
+  }
+
+
+
+
+  @media only screen and (max-width: 525px) {
+    .main_div_BookCleaningServicesToday {
+      background: #fdf6f2;
+      width: 100%;
+      height: auto;
+      padding-top: 4%;
+      padding-bottom: 4%;
+    }
+    .cleaning_image_style {
+      background-image: url("./../../../Assets/bookcleanings_image.svg");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      width: 80%;
+      margin-left: 10%;
+      height: 380px;
+    }
+    .cleaning_image_style_blue_inside {
+      background: #042270;
+      width: 233px;
+      height: 262px;
+      border-radius: 30px 30px 0px 30px;
+      margin-top: 35.5%;
+    }
+    .sky_heading_book {
+      font-family: "Poppins", sans-serif;
+      font-size: 20px;
+      font-weight: 800;
+      line-height: 20px;
+      letter-spacing: 0.05em;
+      text-align: left;
+      color: #187dff;
+      margin-left: 10%;
+      margin-top: 15px;
+    }
+  
+    .blue_heading_book {
+      font-family: "Poppins", sans-serif;
+      font-size: 20px;
+      font-weight: 800;
+      line-height: 20px;
+      letter-spacing: 0.05em;
+      text-align: left;
+      color: #042270;
+      margin-left: 10px;
+      margin-top: 15px;
+    }
+  
+    .blue_heading_book1 {
+      font-family: "Poppins", sans-serif;
+      font-size: 20px;
+      font-weight: 800;
+      line-height: 20px;
+      letter-spacing: 0.05em;
+      text-align: left;
+      color: #042270;
+      margin-left: 10%;
+    }
+    .para_desp_book {
+      font-family: "Poppins", sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 14px;
+      letter-spacing: 0.05em;
+      text-align: left;
+      color: #000000;
+      width: 80%;
+      text-align: justify;
+      margin-left: 10%;
+      margin-top: 10px;
+    }
+    .btn_book {
+      width: 150px;
+      height: 52px;
+      border-radius: 30px;
+      opacity: 0px;
+      background: #042270;
+      font-family: "Poppins", sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 26px;
+      text-align: center;
+      color: #ffffff;
+      margin-top: 10px;
+      margin-left: 10%;
+      border-style: none;
+      border-color: none;
+    }
+    .round_img_sky_book {
+      width: 50px;
+      height: 50px;
+      background: #87cef6;
+      border-radius: 50px;
+      margin-right: 70px;
+      margin-top: 15px;
+    }
+  }
+
+
+
+  @media only screen and (max-width: 425px) {
+    .main_div_BookCleaningServicesToday {
+      background: #fdf6f2;
+      width: 100%;
+      height: auto;
+      padding-top: 8%;
+      padding-bottom: 4%;
+    }
+    .cleaning_image_style {
+      background-image: url("./../../../Assets/bookcleanings_image.svg");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      width: 80%;
+      margin-left: 10%;
+      height: 290px;
+    }
+    .cleaning_image_style_blue_inside {
+      background: #042270;
+      width: 233px;
+      height: 262px;
+      border-radius: 30px 30px 0px 30px;
+      margin-top: 35.5%;
+    }
+    .sky_heading_book {
+      font-family: "Poppins", sans-serif;
+      font-size: 20px;
+      font-weight: 800;
+      line-height: 20px;
+      letter-spacing: 0.05em;
+      text-align: left;
+      color: #187dff;
+      margin-left: 10%;
+      margin-top: 15px;
+    }
+  
+    .blue_heading_book {
+      font-family: "Poppins", sans-serif;
+      font-size: 20px;
+      font-weight: 800;
+      line-height: 20px;
+      letter-spacing: 0.05em;
+      text-align: left;
+      color: #042270;
+      margin-left: 10px;
+      margin-top: 15px;
+    }
+  
+    .blue_heading_book1 {
+      font-family: "Poppins", sans-serif;
+      font-size: 20px;
+      font-weight: 800;
+      line-height: 20px;
+      letter-spacing: 0.05em;
+      text-align: left;
+      color: #042270;
+      margin-left: 10%;
+    }
+    .para_desp_book {
+      font-family: "Poppins", sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 14px;
+      letter-spacing: 0.05em;
+      text-align: left;
+      color: #000000;
+      width: 80%;
+      text-align: justify;
+      margin-left: 10%;
+      margin-top: 10px;
+    }
+    .btn_book {
+      width: 150px;
+      height: 52px;
+      border-radius: 30px;
+      opacity: 0px;
+      background: #042270;
+      font-family: "Poppins", sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 26px;
+      text-align: center;
+      color: #ffffff;
+      margin-top: 10px;
+      margin-left: 10%;
+      border-style: none;
+      border-color: none;
+    }
+    .round_img_sky_book {
+      width: 50px;
+      height: 50px;
+      background: #87cef6;
+      border-radius: 50px;
+      margin-right: 70px;
+      margin-top: 15px;
+    }
+  }
+
+
+
+  @media only screen and (max-width: 375px) {
+    .main_div_BookCleaningServicesToday {
+      background: #fdf6f2;
+      width: 100%;
+      height: auto;
+      padding-top: 8%;
+      padding-bottom: 8%;
+    }
+    .cleaning_image_style {
+      background-image: url("./../../../Assets/bookcleanings_image.svg");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      width: 80%;
+      margin-left: 10%;
+      height: 250px;
+    }
+    .cleaning_image_style_blue_inside {
+      background: #042270;
+      width: 233px;
+      height: 262px;
+      border-radius: 30px 30px 0px 30px;
+      margin-top: 35.5%;
+    }
+    .sky_heading_book {
+      font-family: "Poppins", sans-serif;
+      font-size: 20px;
+      font-weight: 800;
+      line-height: 20px;
+      letter-spacing: 0.05em;
+      text-align: left;
+      color: #187dff;
+      margin-left: 10%;
+      margin-top: 15px;
+    }
+  
+    .blue_heading_book {
+      font-family: "Poppins", sans-serif;
+      font-size: 20px;
+      font-weight: 800;
+      line-height: 20px;
+      letter-spacing: 0.05em;
+      text-align: left;
+      color: #042270;
+      margin-left: 10px;
+      margin-top: 15px;
+    }
+  
+    .blue_heading_book1 {
+      font-family: "Poppins", sans-serif;
+      font-size: 20px;
+      font-weight: 800;
+      line-height: 20px;
+      letter-spacing: 0.05em;
+      text-align: left;
+      color: #042270;
+      margin-left: 10%;
+    }
+    .para_desp_book {
+      font-family: "Poppins", sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 14px;
+      letter-spacing: 0.05em;
+      text-align: left;
+      color: #000000;
+      width: 80%;
+      text-align: justify;
+      margin-left: 10%;
+      margin-top: 10px;
+    }
+    .btn_book {
+      width: 150px;
+      height: 52px;
+      border-radius: 30px;
+      opacity: 0px;
+      background: #042270;
+      font-family: "Poppins", sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 26px;
+      text-align: center;
+      color: #ffffff;
+      margin-top: 10px;
+      margin-left: 10%;
+      border-style: none;
+      border-color: none;
+    }
+    .round_img_sky_book {
+      width: 50px;
+      height: 50px;
+      background: #87cef6;
+      border-radius: 50px;
+      margin-right: 70px;
+      margin-top: 15px;
+    }
+  }

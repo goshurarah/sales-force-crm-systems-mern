@@ -1,0 +1,652 @@
+.main_div_form {
+  background: #87cef6;
+  width: 100%;
+  height: 964px;
+  padding-left: 13%;
+  padding-right: 13%;
+  padding-top: 5%;
+}
+.heading_GetInTouchForm {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: #042270;
+  margin-bottom: 8%;
+}
+.vertical_line_blue {
+  border-left: 2px solid #042270;
+  height: 98px;
+  margin-top: 5px;
+}
+.homeicon {
+  width: 14px;
+  height: 14px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 0px;
+}
+.Headquaters_heading {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: #042270;
+}
+.Headquaters_desp {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: #6d6d6d;
+  margin-left: 15px;
+}
+.main_div_form_getintouch {
+  width: 100%;
+  height: 567px;
+  border-radius: 50px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px 4px #0000000a;
+  margin-top: 3%;
+  padding-top: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.input_style_getintouch {
+  width: 100%;
+  height: 50px;
+  padding: 16px 16px 16px 26px;
+  border-radius: 30px;
+  border: 1px solid #6d6d6d;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.96px;
+  text-align: left;
+  color: #6d6d6d;
+  outline: none;
+  margin-top: 15px;
+}
+.textarea_style_getintouch {
+  width: 100%;
+  height: 275px;
+  padding: 16px 16px 16px 26px;
+  border-radius: 30px;
+  border: 1px solid #6d6d6d;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.96px;
+  text-align: left;
+  color: #6d6d6d;
+  outline: none;
+  margin-top: 15px;
+}
+.Send_Message_btn {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: center;
+  color: #ffffff;
+  width: 192.17px;
+  height: 52px;
+  border-radius: 30px;
+  background: #042270;
+  margin-top: 15px;
+  border-color: none;
+  border-style: none;
+  align-items: center;
+}
+@media only screen and (max-width: 1600px) {
+  .main_div_form {
+    background: #87cef6;
+    width: 100%;
+    height: 964px;
+    padding-left: 13%;
+    padding-right: 13%;
+    padding-top: 5%;
+  }
+  .heading_GetInTouchForm {
+    font-family: "Poppins", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #042270;
+    margin-bottom: 8%;
+  }
+  .vertical_line_blue {
+    border-left: 2px solid #042270;
+    height: 140px;
+    margin-top: 5px;
+  }
+  .homeicon {
+    width: 14px;
+    height: 14px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 0px;
+  }
+  .Headquaters_heading {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #042270;
+  }
+  .Headquaters_desp {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #6d6d6d;
+    margin-left: 15px;
+  }
+  .main_div_form_getintouch {
+    width: 100%;
+    height: 588px;
+    border-radius: 50px;
+    background: #ffffff;
+    box-shadow: 0px 4px 4px 4px #0000000a;
+    margin-top: 3%;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .input_style_getintouch {
+    width: 100%;
+    height: 50px;
+    padding: 16px 16px 16px 26px;
+    border-radius: 30px;
+    border: 1px solid #6d6d6d;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.96px;
+    text-align: left;
+    color: #6d6d6d;
+    outline: none;
+    margin-top: 20px;
+  }
+  .textarea_style_getintouch {
+    width: 100%;
+    height: 275px;
+    padding: 16px 16px 16px 26px;
+    border-radius: 30px;
+    border: 1px solid #6d6d6d;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.96px;
+    text-align: left;
+    color: #6d6d6d;
+    outline: none;
+    margin-top: 20px;
+  }
+  .Send_Message_btn {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+    color: #ffffff;
+    width: 192.17px;
+    height: 52px;
+    border-radius: 30px;
+    background: #042270;
+    margin-top: 20px;
+    border-color: none;
+    border-style: none;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .main_div_form {
+    background: #87cef6;
+    width: 100%;
+    height: 964px;
+    padding-left: 13%;
+    padding-right: 13%;
+    padding-top: 5%;
+  }
+  .heading_GetInTouchForm {
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #042270;
+    margin-bottom: 8%;
+  }
+  .vertical_line_blue {
+    border-left: 2px solid #042270;
+    height: 140px;
+    margin-top: 5px;
+  }
+  .homeicon {
+    width: 14px;
+    height: 14px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 0px;
+  }
+  .Headquaters_heading {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #042270;
+  }
+  .Headquaters_desp {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #6d6d6d;
+    margin-left: 15px;
+  }
+  .main_div_form_getintouch {
+    width: 100%;
+    height: 588px;
+    border-radius: 50px;
+    background: #ffffff;
+    box-shadow: 0px 4px 4px 4px #0000000a;
+    margin-top: 3%;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .input_style_getintouch {
+    width: 100%;
+    height: 50px;
+    padding: 16px 16px 16px 26px;
+    border-radius: 30px;
+    border: 1px solid #6d6d6d;
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.96px;
+    text-align: left;
+    color: #6d6d6d;
+    outline: none;
+    margin-top: 20px;
+  }
+  .textarea_style_getintouch {
+    width: 100%;
+    height: 275px;
+    padding: 16px 16px 16px 26px;
+    border-radius: 30px;
+    border: 1px solid #6d6d6d;
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.96px;
+    text-align: left;
+    color: #6d6d6d;
+    outline: none;
+    margin-top: 20px;
+  }
+  .Send_Message_btn {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+    color: #ffffff;
+    width: 192.17px;
+    height: 52px;
+    border-radius: 30px;
+    background: #042270;
+    margin-top: 20px;
+    border-color: none;
+    border-style: none;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .main_div_form {
+    background: #87cef6;
+    width: 100%;
+    height: 964px;
+    padding-left: 13%;
+    padding-right: 13%;
+    padding-top: 5%;
+  }
+  .heading_GetInTouchForm {
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #042270;
+    margin-bottom: 8%;
+  }
+  .vertical_line_blue {
+    border-left: 2px solid #042270;
+    height: 140px;
+    margin-top: 5px;
+  }
+  .homeicon {
+    width: 14px;
+    height: 14px;
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-top: 0px;
+  }
+  .Headquaters_heading {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #042270;
+  }
+  .Headquaters_desp {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #6d6d6d;
+    margin-left: 10px;
+  }
+  .main_div_form_getintouch {
+    width: 100%;
+    height: 588px;
+    border-radius: 50px;
+    background: #ffffff;
+    box-shadow: 0px 4px 4px 4px #0000000a;
+    margin-top: 3%;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .input_style_getintouch {
+    width: 100%;
+    height: 50px;
+    padding: 16px 16px 16px 26px;
+    border-radius: 30px;
+    border: 1px solid #6d6d6d;
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.96px;
+    text-align: left;
+    color: #6d6d6d;
+    outline: none;
+    margin-top: 20px;
+  }
+  .textarea_style_getintouch {
+    width: 100%;
+    height: 275px;
+    padding: 16px 16px 16px 26px;
+    border-radius: 30px;
+    border: 1px solid #6d6d6d;
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.96px;
+    text-align: left;
+    color: #6d6d6d;
+    outline: none;
+    margin-top: 20px;
+  }
+  .Send_Message_btn {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+    color: #ffffff;
+    width: 192.17px;
+    height: 52px;
+    border-radius: 30px;
+    background: #042270;
+    margin-top: 20px;
+    border-color: none;
+    border-style: none;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .main_div_form {
+    background: #87cef6;
+    width: 100%;
+    height: 964px;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 5%;
+  }
+  .heading_GetInTouchForm {
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #042270;
+    margin-bottom: 8%;
+  }
+  .vertical_line_blue {
+    border-left: 2px solid #042270;
+    height: 110px;
+    margin-top: 5px;
+  }
+  .homeicon {
+    width: 14px;
+    height: 14px;
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-top: 0px;
+  }
+  .Headquaters_heading {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #042270;
+  }
+  .Headquaters_desp {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #6d6d6d;
+    margin-left: 10px;
+  }
+  .main_div_form_getintouch {
+    width: 100%;
+    height: 588px;
+    border-radius: 50px;
+    background: #ffffff;
+    box-shadow: 0px 4px 4px 4px #0000000a;
+    margin-top: 3%;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .input_style_getintouch {
+    width: 100%;
+    height: 50px;
+    padding: 16px 16px 16px 26px;
+    border-radius: 30px;
+    border: 1px solid #6d6d6d;
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.96px;
+    text-align: left;
+    color: #6d6d6d;
+    outline: none;
+    margin-top: 20px;
+  }
+  .textarea_style_getintouch {
+    width: 100%;
+    height: 275px;
+    padding: 16px 16px 16px 26px;
+    border-radius: 30px;
+    border: 1px solid #6d6d6d;
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.96px;
+    text-align: left;
+    color: #6d6d6d;
+    outline: none;
+    margin-top: 20px;
+  }
+  .Send_Message_btn {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+    color: #ffffff;
+    width: 192.17px;
+    height: 52px;
+    border-radius: 30px;
+    background: #042270;
+    margin-top: 20px;
+    border-color: none;
+    border-style: none;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .main_div_form {
+    background: #87cef6;
+    width: 100%;
+    height: auto;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 5%;
+    padding-bottom: 10%;
+  }
+  .heading_GetInTouchForm {
+    font-family: "Poppins", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 10px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #042270;
+    margin-bottom: 6%;
+  }
+  .vertical_line_blue {
+    border-left: 2px solid #042270;
+    height: 70px;
+    margin-top: 5px;
+  }
+  .homeicon {
+    width: 14px;
+    height: 14px;
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-top: 0px;
+  }
+  .Headquaters_heading {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 12px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #042270;
+  }
+  .Headquaters_desp {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #6d6d6d;
+    margin-left: 10px;
+  }
+  .main_div_form_getintouch {
+    width: 100%;
+    height: auto;
+    border-radius: 50px;
+    background: #ffffff;
+    box-shadow: 0px 4px 4px 4px #0000000a;
+    margin-top: 3%;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+  }
+  .input_style_getintouch {
+    width: 100%;
+    height: 50px;
+    padding: 16px 16px 16px 26px;
+    border-radius: 30px;
+    border: 1px solid #6d6d6d;
+    font-family: "Rubik", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18.96px;
+    text-align: left;
+    color: #6d6d6d;
+    outline: none;
+    margin-top: 20px;
+  }
+  .textarea_style_getintouch {
+    width: 100%;
+    height: 275px;
+    padding: 16px 16px 16px 26px;
+    border-radius: 30px;
+    border: 1px solid #6d6d6d;
+    font-family: "Rubik", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18.96px;
+    text-align: left;
+    color: #6d6d6d;
+    outline: none;
+    margin-top: 20px;
+  }
+  .Send_Message_btn {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+    color: #ffffff;
+    width: 192.17px;
+    height: 52px;
+    border-radius: 30px;
+    background: #042270;
+    margin-top: 20px;
+    border-color: none;
+    border-style: none;
+    align-items: center;
+  }
+}
